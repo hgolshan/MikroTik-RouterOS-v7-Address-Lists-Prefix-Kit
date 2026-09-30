@@ -6,7 +6,7 @@
 # Target List: "BR"
 # Content Source: Brazil (BR)
 # IPv4 Prefixes: 17 | IPv6 Prefixes: 1 | Total: 18
-# Generated At: 2026-09-30 19:10:46 UTC
+# Generated At: 2026-09-30 19:38:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/br.rsc" dst-path="BR.rsc"

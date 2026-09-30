@@ -6,7 +6,7 @@
 # Target List: "CN"
 # Content Source: China (CN)
 # IPv4 Prefixes: 39 | IPv6 Prefixes: 3 | Total: 42
-# Generated At: 2026-09-30 19:10:46 UTC
+# Generated At: 2026-09-30 19:38:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/cn.rsc" dst-path="CN.rsc"

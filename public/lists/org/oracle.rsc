@@ -6,7 +6,7 @@
 # Target List: "ORACLE"
 # Content Source: Oracle Cloud (OCI) (ASNs: 31898)
 # IPv4 Prefixes: 22 | IPv6 Prefixes: 3 | Total: 25
-# Generated At: 2026-09-30 19:10:46 UTC
+# Generated At: 2026-09-30 19:38:59 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/oracle.rsc" dst-path="ORACLE.rsc"

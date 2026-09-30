@@ -6,7 +6,7 @@
 # Target List: "DISCORD"
 # Content Source: Discord (ASNs: 54888, 397444)
 # IPv4 Prefixes: 5 | IPv6 Prefixes: 1 | Total: 6
-# Generated At: 2026-09-30 19:10:46 UTC
+# Generated At: 2026-09-30 19:38:59 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/discord.rsc" dst-path="DISCORD.rsc"

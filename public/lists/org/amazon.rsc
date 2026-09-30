@@ -6,7 +6,7 @@
 # Target List: "AMAZON"
 # Content Source: Amazon Web Services (AWS) (ASNs: 16509, 14618)
 # IPv4 Prefixes: 20 | IPv6 Prefixes: 3 | Total: 23
-# Generated At: 2026-09-30 19:10:46 UTC
+# Generated At: 2026-09-30 19:38:59 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/amazon.rsc" dst-path="AMAZON.rsc"

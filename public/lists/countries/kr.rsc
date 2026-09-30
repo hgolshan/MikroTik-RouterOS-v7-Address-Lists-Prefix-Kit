@@ -6,7 +6,7 @@
 # Target List: "KR"
 # Content Source: South Korea (KR)
 # IPv4 Prefixes: 12 | IPv6 Prefixes: 2 | Total: 14
-# Generated At: 2026-09-30 19:10:46 UTC
+# Generated At: 2026-09-30 19:38:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/kr.rsc" dst-path="KR.rsc"
