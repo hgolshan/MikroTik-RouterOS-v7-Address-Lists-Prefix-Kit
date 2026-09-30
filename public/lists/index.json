@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/hgolshan/prefixlist",
   "author": "Hossein Golshan",
-  "generatedAt": "2026-09-30T19:38:58.998Z",
+  "generatedAt": "2026-09-30T19:46:12.799Z",
   "totalLists": 48,
   "lists": [
     {
@@ -22,7 +22,7 @@
       "filename": "org/google.rsc",
       "rscUrl": "/lists/org/google.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/google.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "cloudflare",
@@ -40,7 +40,7 @@
       "filename": "org/cloudflare.rsc",
       "rscUrl": "/lists/org/cloudflare.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/cloudflare.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "amazon",
@@ -58,7 +58,7 @@
       "filename": "org/amazon.rsc",
       "rscUrl": "/lists/org/amazon.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/amazon.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "microsoft",
@@ -77,7 +77,7 @@
       "filename": "org/microsoft.rsc",
       "rscUrl": "/lists/org/microsoft.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/microsoft.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "meta",
@@ -95,7 +95,7 @@
       "filename": "org/meta.rsc",
       "rscUrl": "/lists/org/meta.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/meta.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "netflix",
@@ -113,7 +113,7 @@
       "filename": "org/netflix.rsc",
       "rscUrl": "/lists/org/netflix.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/netflix.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "telegram",
@@ -134,7 +134,7 @@
       "filename": "org/telegram.rsc",
       "rscUrl": "/lists/org/telegram.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/telegram.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "apple",
@@ -151,7 +151,7 @@
       "filename": "org/apple.rsc",
       "rscUrl": "/lists/org/apple.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/apple.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "github",
@@ -168,7 +168,7 @@
       "filename": "org/github.rsc",
       "rscUrl": "/lists/org/github.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/github.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "fastly",
@@ -185,7 +185,7 @@
       "filename": "org/fastly.rsc",
       "rscUrl": "/lists/org/fastly.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/fastly.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "akamai",
@@ -203,7 +203,7 @@
       "filename": "org/akamai.rsc",
       "rscUrl": "/lists/org/akamai.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/akamai.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "hetzner",
@@ -221,7 +221,7 @@
       "filename": "org/hetzner.rsc",
       "rscUrl": "/lists/org/hetzner.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/hetzner.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "ovh",
@@ -238,7 +238,7 @@
       "filename": "org/ovh.rsc",
       "rscUrl": "/lists/org/ovh.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/ovh.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "digitalocean",
@@ -255,7 +255,7 @@
       "filename": "org/digitalocean.rsc",
       "rscUrl": "/lists/org/digitalocean.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/digitalocean.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "oracle",
@@ -272,7 +272,7 @@
       "filename": "org/oracle.rsc",
       "rscUrl": "/lists/org/oracle.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/oracle.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "spotify",
@@ -289,7 +289,7 @@
       "filename": "org/spotify.rsc",
       "rscUrl": "/lists/org/spotify.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/spotify.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "zoom",
@@ -306,7 +306,7 @@
       "filename": "org/zoom.rsc",
       "rscUrl": "/lists/org/zoom.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/zoom.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "linkedin",
@@ -323,7 +323,7 @@
       "filename": "org/linkedin.rsc",
       "rscUrl": "/lists/org/linkedin.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/linkedin.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "x-twitter",
@@ -340,7 +340,7 @@
       "filename": "org/x-twitter.rsc",
       "rscUrl": "/lists/org/x-twitter.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/x-twitter.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "valve",
@@ -357,7 +357,7 @@
       "filename": "org/valve.rsc",
       "rscUrl": "/lists/org/valve.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/valve.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "alibaba",
@@ -375,7 +375,7 @@
       "filename": "org/alibaba.rsc",
       "rscUrl": "/lists/org/alibaba.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/alibaba.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "bytedance",
@@ -393,7 +393,7 @@
       "filename": "org/bytedance.rsc",
       "rscUrl": "/lists/org/bytedance.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/bytedance.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "discord",
@@ -411,7 +411,7 @@
       "filename": "org/discord.rsc",
       "rscUrl": "/lists/org/discord.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/discord.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "openai",
@@ -428,7 +428,7 @@
       "filename": "org/openai.rsc",
       "rscUrl": "/lists/org/openai.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/openai.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "vultr",
@@ -445,7 +445,7 @@
       "filename": "org/vultr.rsc",
       "rscUrl": "/lists/org/vultr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/vultr.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-us",
@@ -460,7 +460,7 @@
       "filename": "countries/us.rsc",
       "rscUrl": "/lists/countries/us.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/us.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-de",
@@ -475,7 +475,7 @@
       "filename": "countries/de.rsc",
       "rscUrl": "/lists/countries/de.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/de.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-gb",
@@ -490,7 +490,7 @@
       "filename": "countries/gb.rsc",
       "rscUrl": "/lists/countries/gb.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/gb.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-fr",
@@ -505,7 +505,7 @@
       "filename": "countries/fr.rsc",
       "rscUrl": "/lists/countries/fr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/fr.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-ir",
@@ -520,7 +520,7 @@
       "filename": "countries/ir.rsc",
       "rscUrl": "/lists/countries/ir.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ir.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-cn",
@@ -535,7 +535,7 @@
       "filename": "countries/cn.rsc",
       "rscUrl": "/lists/countries/cn.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/cn.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-ru",
@@ -550,7 +550,7 @@
       "filename": "countries/ru.rsc",
       "rscUrl": "/lists/countries/ru.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ru.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-nl",
@@ -565,7 +565,7 @@
       "filename": "countries/nl.rsc",
       "rscUrl": "/lists/countries/nl.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/nl.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-jp",
@@ -580,7 +580,7 @@
       "filename": "countries/jp.rsc",
       "rscUrl": "/lists/countries/jp.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/jp.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-in",
@@ -595,7 +595,7 @@
       "filename": "countries/in.rsc",
       "rscUrl": "/lists/countries/in.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/in.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-br",
@@ -610,7 +610,7 @@
       "filename": "countries/br.rsc",
       "rscUrl": "/lists/countries/br.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/br.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-ca",
@@ -625,7 +625,7 @@
       "filename": "countries/ca.rsc",
       "rscUrl": "/lists/countries/ca.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ca.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-au",
@@ -640,7 +640,7 @@
       "filename": "countries/au.rsc",
       "rscUrl": "/lists/countries/au.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/au.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-tr",
@@ -655,7 +655,7 @@
       "filename": "countries/tr.rsc",
       "rscUrl": "/lists/countries/tr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/tr.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-sg",
@@ -670,7 +670,7 @@
       "filename": "countries/sg.rsc",
       "rscUrl": "/lists/countries/sg.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/sg.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-ae",
@@ -685,7 +685,7 @@
       "filename": "countries/ae.rsc",
       "rscUrl": "/lists/countries/ae.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ae.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-ch",
@@ -700,7 +700,7 @@
       "filename": "countries/ch.rsc",
       "rscUrl": "/lists/countries/ch.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ch.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-se",
@@ -715,7 +715,7 @@
       "filename": "countries/se.rsc",
       "rscUrl": "/lists/countries/se.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/se.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-kr",
@@ -730,7 +730,7 @@
       "filename": "countries/kr.rsc",
       "rscUrl": "/lists/countries/kr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/kr.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-it",
@@ -745,7 +745,7 @@
       "filename": "countries/it.rsc",
       "rscUrl": "/lists/countries/it.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/it.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-es",
@@ -760,7 +760,7 @@
       "filename": "countries/es.rsc",
       "rscUrl": "/lists/countries/es.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/es.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-pl",
@@ -775,7 +775,7 @@
       "filename": "countries/pl.rsc",
       "rscUrl": "/lists/countries/pl.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/pl.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     },
     {
       "id": "country-ua",
@@ -790,7 +790,7 @@
       "filename": "countries/ua.rsc",
       "rscUrl": "/lists/countries/ua.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ua.rsc",
-      "lastUpdated": "2026-09-30T19:38:58.998Z"
+      "lastUpdated": "2026-09-30T19:46:12.799Z"
     }
   ]
 }

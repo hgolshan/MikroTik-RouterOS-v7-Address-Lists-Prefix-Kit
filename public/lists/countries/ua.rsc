@@ -6,7 +6,7 @@
 # Target List: "UA"
 # Content Source: Ukraine (UA)
 # IPv4 Prefixes: 9 | IPv6 Prefixes: 1 | Total: 10
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ua.rsc" dst-path="UA.rsc"

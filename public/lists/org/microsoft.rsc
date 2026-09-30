@@ -6,7 +6,7 @@
 # Target List: "MICROSOFT"
 # Content Source: Microsoft & Azure (ASNs: 8075, 8068, 8069)
 # IPv4 Prefixes: 19 | IPv6 Prefixes: 3 | Total: 22
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/microsoft.rsc" dst-path="MICROSOFT.rsc"

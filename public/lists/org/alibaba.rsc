@@ -6,7 +6,7 @@
 # Target List: "ALIBABA"
 # Content Source: Alibaba Cloud (Aliyun) (ASNs: 37963, 45102)
 # IPv4 Prefixes: 7 | IPv6 Prefixes: 2 | Total: 9
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/alibaba.rsc" dst-path="ALIBABA.rsc"

@@ -6,7 +6,7 @@
 # Target List: "SG"
 # Content Source: Singapore (SG)
 # IPv4 Prefixes: 12 | IPv6 Prefixes: 2 | Total: 14
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/sg.rsc" dst-path="SG.rsc"

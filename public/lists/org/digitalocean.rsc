@@ -6,7 +6,7 @@
 # Target List: "DIGITALOCEAN"
 # Content Source: DigitalOcean (ASNs: 14061)
 # IPv4 Prefixes: 39 | IPv6 Prefixes: 3 | Total: 42
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/digitalocean.rsc" dst-path="DIGITALOCEAN.rsc"

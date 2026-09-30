@@ -6,7 +6,7 @@
 # Target List: "OPENAI"
 # Content Source: OpenAI (ASNs: 204990)
 # IPv4 Prefixes: 3 | IPv6 Prefixes: 1 | Total: 4
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/openai.rsc" dst-path="OPENAI.rsc"

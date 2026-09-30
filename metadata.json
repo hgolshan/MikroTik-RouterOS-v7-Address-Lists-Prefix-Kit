@@ -2,5 +2,7 @@
   "name": "PrefixList - MikroTik RouterOS Prefix Kit",
   "description": "A high-performance, public MikroTik RouterOS v7 prefix kit and web builder. Automatically generate and maintain optimized, idempotent firewall address lists, ASN blocks, and country zones for weekly automated updates.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

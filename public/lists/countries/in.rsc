@@ -6,7 +6,7 @@
 # Target List: "IN"
 # Content Source: India (IN)
 # IPv4 Prefixes: 17 | IPv6 Prefixes: 3 | Total: 20
-# Generated At: 2026-09-30 19:38:46 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/in.rsc" dst-path="IN.rsc"

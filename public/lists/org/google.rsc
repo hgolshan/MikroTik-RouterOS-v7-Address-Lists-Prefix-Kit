@@ -6,7 +6,7 @@
 # Target List: "GOOGLE"
 # Content Source: Google & YouTube (ASNs: 15169, 36040, 19527, 43515)
 # IPv4 Prefixes: 21 | IPv6 Prefixes: 6 | Total: 27
-# Generated At: 2026-09-30 19:38:59 UTC
+# Generated At: 2026-09-30 19:46:12 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/google.rsc" dst-path="GOOGLE.rsc"
