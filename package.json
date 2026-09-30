@@ -1,0 +1,57 @@
+{
+  "name": "prefixlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A high-performance, public MikroTik RouterOS v7 prefix kit and web builder. Automatically generate and maintain optimized, idempotent firewall address lists, ASN blocks, and country zones for weekly automated updates.",
+  "author": "Hossein Golshan <h.golshan128@gmail.com> (https://github.com/hgolshan)",
+  "homepage": "https://hgolshan.github.io/prefixlist/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hgolshan/prefixlist.git"
+  },
+  "keywords": [
+    "mikrotik-routeros-v7-address-lists",
+    "ip-firewall-address-list-automation",
+    "isp-asn-prefix-blocks",
+    "country-geo-ips",
+    "mikrotik-policy-routing",
+    "tool-fetch-auto-updater",
+    "github-actions-network-automation",
+    "routeros-v7",
+    "bgp-prefixes",
+    "ripestat",
+    "pbr"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build:lists": "tsx scripts/build-prebuilt-lists.ts",
+    "build": "npm run build:lists && vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0",
+    "express": "^4.21.2",
+    "dotenv": "^17.2.3",
+    "motion": "^12.23.24"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "@types/express": "^4.17.21"
+  }
+}
