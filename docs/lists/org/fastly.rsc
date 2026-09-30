@@ -6,7 +6,7 @@
 # Target List: "FASTLY"
 # Content Source: Fastly CDN (ASNs: 54113)
 # IPv4 Prefixes: 10 | IPv6 Prefixes: 2 | Total: 12
-# Generated At: 2026-09-30 19:45:53 UTC
+# Generated At: 2026-09-30 19:50:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/fastly.rsc" dst-path="FASTLY.rsc"

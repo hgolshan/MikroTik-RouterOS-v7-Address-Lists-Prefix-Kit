@@ -6,7 +6,7 @@
 # Target List: "AKAMAI"
 # Content Source: Akamai Technologies (ASNs: 20940, 16625)
 # IPv4 Prefixes: 9 | IPv6 Prefixes: 2 | Total: 11
-# Generated At: 2026-09-30 19:46:12 UTC
+# Generated At: 2026-09-30 19:50:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/akamai.rsc" dst-path="AKAMAI.rsc"

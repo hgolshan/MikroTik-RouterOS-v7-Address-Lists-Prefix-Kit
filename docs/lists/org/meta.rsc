@@ -6,7 +6,7 @@
 # Target List: "META"
 # Content Source: Meta (Facebook, Instagram, WhatsApp) (ASNs: 32934, 63293)
 # IPv4 Prefixes: 18 | IPv6 Prefixes: 4 | Total: 22
-# Generated At: 2026-09-30 19:45:53 UTC
+# Generated At: 2026-09-30 19:50:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/meta.rsc" dst-path="META.rsc"

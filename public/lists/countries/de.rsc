@@ -6,7 +6,7 @@
 # Target List: "DE"
 # Content Source: Germany (DE)
 # IPv4 Prefixes: 14 | IPv6 Prefixes: 3 | Total: 17
-# Generated At: 2026-09-30 19:46:12 UTC
+# Generated At: 2026-09-30 19:50:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/de.rsc" dst-path="DE.rsc"
