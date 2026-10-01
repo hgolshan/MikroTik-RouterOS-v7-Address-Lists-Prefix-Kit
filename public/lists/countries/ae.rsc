@@ -6,7 +6,7 @@
 # Target List: "AE"
 # Content Source: United Arab Emirates (AE)
 # IPv4 Prefixes: 9 | IPv6 Prefixes: 2 | Total: 11
-# Generated At: 2026-09-30 19:50:54 UTC
+# Generated At: 2026-10-01 08:39:19 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ae.rsc" dst-path="AE.rsc"

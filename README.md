@@ -1,17 +1,24 @@
 <div align="center">
 
+<img src="public/favicon.svg" alt="PrefixList Logo" width="72" height="72" />
+
 # PrefixList ⚡ MikroTik RouterOS v7 Prefix Kit
 
 **A high-performance, public MikroTik RouterOS v7 prefix kit and web builder.**  
 *Automatically generate and maintain optimized, idempotent firewall address lists, ASN blocks, and country zones for weekly automated updates.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![GitHub Actions Build Status](https://img.shields.io/github/actions/workflow/status/hgolshan/prefixlist/update-lists.yml?branch=main&label=Weekly%20PrefixList%20Sync&style=flat-square)](https://github.com/hgolshan/prefixlist/actions)
+[![GitHub Actions Build Status](https://img.shields.io/github/actions/workflow/status/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/deploy-pages.yml?branch=main&label=GitHub%20Pages%20Deploy&style=flat-square)](https://github.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/actions)
+[![Weekly Sync](https://img.shields.io/github/actions/workflow/status/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/update-lists.yml?branch=main&label=Weekly%20PrefixList%20Sync&style=flat-square)](https://github.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/actions)
 [![RouterOS Compatibility](https://img.shields.io/badge/RouterOS-v7%20%28Recommended%29%20%7C%20v6-00bcd4.svg?style=flat-square)](https://mikrotik.com)
-[![GitHub Pages](https://img.shields.io/badge/Live%20Web%20App-GitHub%20Pages-0ea5e9?style=flat-square)](https://hgolshan.github.io/prefixlist/)
+[![Live Web App](https://img.shields.io/badge/Live%20Web%20App-GitHub%20Pages-0ea5e9?style=flat-square)](https://hgolshan.github.io/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/)
 [![Author](https://img.shields.io/badge/Author-Hossein%20Golshan-10b981?style=flat-square)](https://github.com/hgolshan)
 
-**[🌐 Interactive Web Builder](https://hgolshan.github.io/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/)** · **[📦 Raw GitHub Lists](https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/)** · **[📑 Full JSON Catalog](https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/index.json)**
+<br />
+
+[![PrefixList Web Application Dashboard](public/assets/dashboard-preview.svg)](https://hgolshan.github.io/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/)
+
+**[🌐 Interactive Web Builder](https://hgolshan.github.io/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/)** · **[📦 Raw GitHub Lists](https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/)** · **[📑 Full JSON Catalog](https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/index.json)**
 
 </div>
 
@@ -41,32 +48,32 @@ Import pre-aggregated, ready-to-use `.rsc` files directly into your MikroTik ter
 ### 1. Popular ISP & Organization Prefix Blocks
 ```routeros
 # Cloudflare (Anycast & CDN)
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/cloudflare.rsc" dst-path="cloudflare.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/cloudflare.rsc" dst-path="cloudflare.rsc"
 /import cloudflare.rsc
 /file remove [find name="cloudflare.rsc"]
 
 # Google & YouTube Services
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/google.rsc" dst-path="google.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/google.rsc" dst-path="google.rsc"
 /import google.rsc
 /file remove [find name="google.rsc"]
 
 # Amazon AWS Cloud
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/amazon.rsc" dst-path="amazon.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/amazon.rsc" dst-path="amazon.rsc"
 /import amazon.rsc
 /file remove [find name="amazon.rsc"]
 
 # Microsoft Azure & 365
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/microsoft.rsc" dst-path="microsoft.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/microsoft.rsc" dst-path="microsoft.rsc"
 /import microsoft.rsc
 /file remove [find name="microsoft.rsc"]
 
 # Meta (Facebook, Instagram, WhatsApp)
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/meta.rsc" dst-path="meta.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/meta.rsc" dst-path="meta.rsc"
 /import meta.rsc
 /file remove [find name="meta.rsc"]
 
 # Telegram Data Centers
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/telegram.rsc" dst-path="telegram.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/telegram.rsc" dst-path="telegram.rsc"
 /import telegram.rsc
 /file remove [find name="telegram.rsc"]
 ```
@@ -74,27 +81,27 @@ Import pre-aggregated, ready-to-use `.rsc` files directly into your MikroTik ter
 ### 2. Country Geo-IP Zones
 ```routeros
 # Germany (DE)
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/de.rsc" dst-path="de.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/de.rsc" dst-path="de.rsc"
 /import de.rsc
 /file remove [find name="de.rsc"]
 
 # United States (US)
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/us.rsc" dst-path="us.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/us.rsc" dst-path="us.rsc"
 /import us.rsc
 /file remove [find name="us.rsc"]
 
 # United Kingdom (GB)
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/gb.rsc" dst-path="gb.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/gb.rsc" dst-path="gb.rsc"
 /import gb.rsc
 /file remove [find name="gb.rsc"]
 
 # Iran (IR)
-/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ir.rsc" dst-path="ir.rsc"
+/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ir.rsc" dst-path="ir.rsc"
 /import ir.rsc
 /file remove [find name="ir.rsc"]
 ```
 
-*Browse the full catalog of organizations, CDNs, hosting providers, and ISO countries at [https://hgolshan.github.io/prefixlist/](https://hgolshan.github.io/prefixlist/).*
+*Browse the full catalog of organizations, CDNs, hosting providers, and ISO countries at [https://hgolshan.github.io/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/](https://hgolshan.github.io/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/).*
 
 ---
 
@@ -124,7 +131,7 @@ Paste this into your RouterOS Terminal (replace `CLOUDFLARE` with your desired l
 /system script
 add name="update-prefixlist-CLOUDFLARE" dont-require-permissions=no source="\
 :local listName \"CLOUDFLARE\";\
-:local fetchUrl \"https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/cloudflare.rsc\";\
+:local fetchUrl \"https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/cloudflare.rsc\";\
 :local tempFile \"pl_tmp_CLOUDFLARE.rsc\";\
 :local logTag \"PrefixList-Updater [CLOUDFLARE]:\";\
 :log info (\"$logTag Initiating secure fetch from \" . \$fetchUrl);\

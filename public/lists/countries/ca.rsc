@@ -6,7 +6,7 @@
 # Target List: "CA"
 # Content Source: Canada (CA)
 # IPv4 Prefixes: 16 | IPv6 Prefixes: 2 | Total: 18
-# Generated At: 2026-09-30 19:50:54 UTC
+# Generated At: 2026-10-01 08:39:19 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ca.rsc" dst-path="CA.rsc"
