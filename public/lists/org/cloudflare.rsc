@@ -6,7 +6,7 @@
 # Target List: "CLOUDFLARE"
 # Content Source: Cloudflare (ASNs: 13335, 209242)
 # IPv4 Prefixes: 17 | IPv6 Prefixes: 7 | Total: 24
-# Generated At: 2026-10-01 08:39:19 UTC
+# Generated At: 2026-10-04 07:32:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/cloudflare.rsc" dst-path="CLOUDFLARE.rsc"

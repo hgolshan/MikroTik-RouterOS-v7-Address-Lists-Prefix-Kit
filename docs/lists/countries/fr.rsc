@@ -6,7 +6,7 @@
 # Target List: "FR"
 # Content Source: France (FR)
 # IPv4 Prefixes: 15 | IPv6 Prefixes: 3 | Total: 18
-# Generated At: 2026-10-01 08:39:19 UTC
+# Generated At: 2026-10-04 07:32:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/fr.rsc" dst-path="FR.rsc"

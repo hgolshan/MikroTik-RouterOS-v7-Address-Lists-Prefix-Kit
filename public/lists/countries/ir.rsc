@@ -6,7 +6,7 @@
 # Target List: "IR"
 # Content Source: Iran (IR)
 # IPv4 Prefixes: 36 | IPv6 Prefixes: 5 | Total: 41
-# Generated At: 2026-10-01 08:39:19 UTC
+# Generated At: 2026-10-04 07:32:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/ir.rsc" dst-path="IR.rsc"

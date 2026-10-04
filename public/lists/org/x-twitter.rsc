@@ -6,7 +6,7 @@
 # Target List: "X"
 # Content Source: X (formerly Twitter) (ASNs: 13414)
 # IPv4 Prefixes: 4 | IPv6 Prefixes: 2 | Total: 6
-# Generated At: 2026-10-01 08:39:19 UTC
+# Generated At: 2026-10-04 07:32:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/x-twitter.rsc" dst-path="X.rsc"

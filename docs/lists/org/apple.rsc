@@ -6,7 +6,7 @@
 # Target List: "APPLE"
 # Content Source: Apple Services & iCloud (ASNs: 714)
 # IPv4 Prefixes: 1 | IPv6 Prefixes: 3 | Total: 4
-# Generated At: 2026-10-01 08:39:19 UTC
+# Generated At: 2026-10-04 07:32:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/apple.rsc" dst-path="APPLE.rsc"
