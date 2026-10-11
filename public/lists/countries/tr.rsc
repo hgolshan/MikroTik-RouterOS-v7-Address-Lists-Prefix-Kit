@@ -6,7 +6,7 @@
 # Target List: "TR"
 # Content Source: Turkey (TR)
 # IPv4 Prefixes: 13 | IPv6 Prefixes: 2 | Total: 15
-# Generated At: 2026-10-04 07:32:45 UTC
+# Generated At: 2026-10-11 07:59:11 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/tr.rsc" dst-path="TR.rsc"

@@ -6,7 +6,7 @@
 # Target List: "GB"
 # Content Source: United Kingdom (GB)
 # IPv4 Prefixes: 13 | IPv6 Prefixes: 3 | Total: 16
-# Generated At: 2026-10-04 07:32:45 UTC
+# Generated At: 2026-10-11 07:59:11 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/gb.rsc" dst-path="GB.rsc"
