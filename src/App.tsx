@@ -33,7 +33,7 @@ export default function App() {
   });
 
   const handleQuickCopyTerminal = async () => {
-    const cmd = `/tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/cloudflare.rsc" dst-path="cloudflare.rsc"\n/import cloudflare.rsc\n/file remove [find name="cloudflare.rsc"]`;
+    const cmd = `/tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/cloudflare.rsc" dst-path="cloudflare.rsc"\n/import cloudflare.rsc\n/file remove [find name="cloudflare.rsc"]`;
     try {
       await navigator.clipboard.writeText(cmd);
       setCopiedTerminal(true);

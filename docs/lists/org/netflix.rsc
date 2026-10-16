@@ -5,42 +5,49 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "NETFLIX"
 # Content Source: Netflix (ASNs: 2906, 40027)
-# IPv4 Prefixes: 13 | IPv6 Prefixes: 5 | Total: 18
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 16 | IPv6 Prefixes: 9 | Total: 25
+# Generated At: 2026-10-16 19:11:41 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/netflix.rsc" dst-path="NETFLIX.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/netflix.rsc" dst-path="NETFLIX.rsc"
 #   /import NETFLIX.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [NETFLIX] (13 entries)
+# IPv4 Firewall Address List: [NETFLIX] (16 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="NETFLIX" comment="PrefixList"]
+add address=9.187.0.0/16 list="NETFLIX" comment="PrefixList"
+add address=9.188.0.0/16 list="NETFLIX" comment="PrefixList"
 add address=23.246.0.0/18 list="NETFLIX" comment="PrefixList"
 add address=37.77.184.0/21 list="NETFLIX" comment="PrefixList"
 add address=45.57.0.0/17 list="NETFLIX" comment="PrefixList"
 add address=64.120.128.0/17 list="NETFLIX" comment="PrefixList"
 add address=66.197.128.0/17 list="NETFLIX" comment="PrefixList"
 add address=69.53.224.0/19 list="NETFLIX" comment="PrefixList"
-add address=108.175.32.0/19 list="NETFLIX" comment="PrefixList"
+add address=108.175.32.0/20 list="NETFLIX" comment="PrefixList"
 add address=185.2.220.0/22 list="NETFLIX" comment="PrefixList"
 add address=185.9.188.0/22 list="NETFLIX" comment="PrefixList"
 add address=192.173.64.0/18 list="NETFLIX" comment="PrefixList"
 add address=198.38.96.0/19 list="NETFLIX" comment="PrefixList"
 add address=198.45.48.0/20 list="NETFLIX" comment="PrefixList"
+add address=207.45.72.0/22 list="NETFLIX" comment="PrefixList"
 add address=208.75.76.0/22 list="NETFLIX" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [NETFLIX] (5 entries)
+# IPv6 Firewall Address List: [NETFLIX] (9 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="NETFLIX" comment="PrefixList"]
-add address=2406:bc00::/32 list="NETFLIX" comment="PrefixList"
-add address=2607:fb10::/32 list="NETFLIX" comment="PrefixList"
 add address=2a00:86c0::/32 list="NETFLIX" comment="PrefixList"
-add address=2a03:5640::/32 list="NETFLIX" comment="PrefixList"
-add address=2620:108:7000::/44 list="NETFLIX" comment="PrefixList"
+add address=2607:fb10::/32 list="NETFLIX" comment="PrefixList"
+add address=2a03:5640:8000::/33 list="NETFLIX" comment="PrefixList"
+add address=2a03:5640:4000::/34 list="NETFLIX" comment="PrefixList"
+add address=2a03:5640:2000::/35 list="NETFLIX" comment="PrefixList"
+add address=2a03:5640:1000::/36 list="NETFLIX" comment="PrefixList"
+add address=2620:10c:7000::/44 list="NETFLIX" comment="PrefixList"
+add address=2620:10c:700d::/48 list="NETFLIX" comment="PrefixList"
+add address=2620:10c:7008::/48 list="NETFLIX" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

@@ -39,7 +39,7 @@ export const CatalogView: React.FC<CatalogViewProps> = ({ onInspectList, onOpenI
     if (type === 'org') {
       const org = item as OrgItem;
       filename = `${org.slug}.rsc`;
-      const rawUrl = `https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/${filename}`;
+      const rawUrl = `https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/${filename}`;
       rsc = generateRouterOsScript({
         listName: org.name.split(' ')[0].toUpperCase().replace(/[^A-Z0-9]/g, ''),
         ipv4Prefixes: org.ipv4Prefixes,
@@ -50,7 +50,7 @@ export const CatalogView: React.FC<CatalogViewProps> = ({ onInspectList, onOpenI
     } else {
       const country = item as CountryItem;
       filename = `${country.code.toLowerCase()}.rsc`;
-      const rawUrl = `https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/countries/${filename}`;
+      const rawUrl = `https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/${filename}`;
       rsc = generateRouterOsScript({
         listName: country.code.toUpperCase(),
         ipv4Prefixes: country.ipv4Prefixes,

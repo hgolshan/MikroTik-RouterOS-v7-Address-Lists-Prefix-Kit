@@ -5,28 +5,34 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "APPLE"
 # Content Source: Apple Services & iCloud (ASNs: 714)
-# IPv4 Prefixes: 1 | IPv6 Prefixes: 3 | Total: 4
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 5 | IPv6 Prefixes: 5 | Total: 10
+# Generated At: 2026-10-16 19:11:49 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/apple.rsc" dst-path="APPLE.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/apple.rsc" dst-path="APPLE.rsc"
 #   /import APPLE.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [APPLE] (1 entries)
+# IPv4 Firewall Address List: [APPLE] (5 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="APPLE" comment="PrefixList"]
 add address=17.0.0.0/8 list="APPLE" comment="PrefixList"
+add address=57.102.0.0/15 list="APPLE" comment="PrefixList"
+add address=65.199.22.0/23 list="APPLE" comment="PrefixList"
+add address=139.178.128.0/18 list="APPLE" comment="PrefixList"
+add address=144.178.0.0/18 list="APPLE" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [APPLE] (3 entries)
+# IPv6 Firewall Address List: [APPLE] (5 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="APPLE" comment="PrefixList"]
 add address=2620:149::/32 list="APPLE" comment="PrefixList"
 add address=2403:300::/32 list="APPLE" comment="PrefixList"
 add address=2a01:b740::/32 list="APPLE" comment="PrefixList"
+add address=2a01:b747::/32 list="APPLE" comment="PrefixList"
+add address=2620:0:1b00::/48 list="APPLE" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

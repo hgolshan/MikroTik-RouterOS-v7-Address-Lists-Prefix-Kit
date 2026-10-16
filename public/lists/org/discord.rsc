@@ -5,30 +5,36 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "DISCORD"
 # Content Source: Discord (ASNs: 54888, 397444)
-# IPv4 Prefixes: 5 | IPv6 Prefixes: 1 | Total: 6
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 2 | IPv6 Prefixes: 10 | Total: 12
+# Generated At: 2026-10-16 19:11:56 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/discord.rsc" dst-path="DISCORD.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/discord.rsc" dst-path="DISCORD.rsc"
 #   /import DISCORD.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [DISCORD] (5 entries)
+# IPv4 Firewall Address List: [DISCORD] (2 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="DISCORD" comment="PrefixList"]
-add address=66.22.196.0/22 list="DISCORD" comment="PrefixList"
-add address=66.22.200.0/21 list="DISCORD" comment="PrefixList"
-add address=66.22.208.0/20 list="DISCORD" comment="PrefixList"
-add address=66.22.224.0/19 list="DISCORD" comment="PrefixList"
-add address=162.158.0.0/15 list="DISCORD" comment="PrefixList"
+add address=69.59.18.0/23 list="DISCORD" comment="PrefixList"
+add address=208.68.6.0/23 list="DISCORD" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [DISCORD] (1 entries)
+# IPv6 Firewall Address List: [DISCORD] (10 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="DISCORD" comment="PrefixList"]
-add address=2606:4700::/32 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a009::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a008::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a00b::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a007::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a001::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a002::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a00a::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a004::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a000::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a003::/48 list="DISCORD" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

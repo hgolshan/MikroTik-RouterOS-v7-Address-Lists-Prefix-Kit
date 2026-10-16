@@ -5,34 +5,37 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "TELEGRAM"
 # Content Source: Telegram Messenger (ASNs: 62041, 62014, 44907, 59930, 211157)
-# IPv4 Prefixes: 6 | IPv6 Prefixes: 4 | Total: 10
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 8 | IPv6 Prefixes: 5 | Total: 13
+# Generated At: 2026-10-16 19:11:48 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/telegram.rsc" dst-path="TELEGRAM.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/telegram.rsc" dst-path="TELEGRAM.rsc"
 #   /import TELEGRAM.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [TELEGRAM] (6 entries)
+# IPv4 Firewall Address List: [TELEGRAM] (8 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="TELEGRAM" comment="PrefixList"]
+add address=91.105.192.0/23 list="TELEGRAM" comment="PrefixList"
 add address=91.108.4.0/22 list="TELEGRAM" comment="PrefixList"
 add address=91.108.8.0/21 list="TELEGRAM" comment="PrefixList"
 add address=91.108.16.0/21 list="TELEGRAM" comment="PrefixList"
 add address=91.108.56.0/22 list="TELEGRAM" comment="PrefixList"
 add address=95.161.64.0/20 list="TELEGRAM" comment="PrefixList"
 add address=149.154.160.0/20 list="TELEGRAM" comment="PrefixList"
+add address=185.76.151.0/24 list="TELEGRAM" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [TELEGRAM] (4 entries)
+# IPv6 Firewall Address List: [TELEGRAM] (5 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="TELEGRAM" comment="PrefixList"]
-add address=2a0a:f280::/29 list="TELEGRAM" comment="PrefixList"
-add address=2001:b28:f23d::/48 list="TELEGRAM" comment="PrefixList"
-add address=2001:b28:f23f::/48 list="TELEGRAM" comment="PrefixList"
 add address=2001:67c:4e8::/48 list="TELEGRAM" comment="PrefixList"
+add address=2001:b28:f23f::/48 list="TELEGRAM" comment="PrefixList"
+add address=2001:b28:f23c::/48 list="TELEGRAM" comment="PrefixList"
+add address=2001:b28:f23d::/48 list="TELEGRAM" comment="PrefixList"
+add address=2a0a:f280:203::/48 list="TELEGRAM" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

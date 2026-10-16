@@ -5,34 +5,38 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "ZOOM"
 # Content Source: Zoom Video Communications (ASNs: 23033)
-# IPv4 Prefixes: 9 | IPv6 Prefixes: 1 | Total: 10
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 13 | IPv6 Prefixes: 1 | Total: 14
+# Generated At: 2026-10-16 19:11:54 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/zoom.rsc" dst-path="ZOOM.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/zoom.rsc" dst-path="ZOOM.rsc"
 #   /import ZOOM.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [ZOOM] (9 entries)
+# IPv4 Firewall Address List: [ZOOM] (13 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="ZOOM" comment="PrefixList"]
-add address=64.211.144.0/20 list="ZOOM" comment="PrefixList"
-add address=69.174.57.0/24 list="ZOOM" comment="PrefixList"
-add address=147.124.96.0/19 list="ZOOM" comment="PrefixList"
-add address=170.114.0.0/16 list="ZOOM" comment="PrefixList"
-add address=204.141.28.0/22 list="ZOOM" comment="PrefixList"
-add address=207.226.132.0/24 list="ZOOM" comment="PrefixList"
-add address=209.9.211.0/24 list="ZOOM" comment="PrefixList"
-add address=209.9.215.0/24 list="ZOOM" comment="PrefixList"
-add address=216.205.36.0/22 list="ZOOM" comment="PrefixList"
+add address=50.115.160.0/20 list="ZOOM" comment="PrefixList"
+add address=74.121.184.0/21 list="ZOOM" comment="PrefixList"
+add address=172.93.222.0/24 list="ZOOM" comment="PrefixList"
+add address=192.34.110.0/23 list="ZOOM" comment="PrefixList"
+add address=192.251.193.0/24 list="ZOOM" comment="PrefixList"
+add address=199.119.224.0/22 list="ZOOM" comment="PrefixList"
+add address=199.180.128.0/21 list="ZOOM" comment="PrefixList"
+add address=207.244.144.0/20 list="ZOOM" comment="PrefixList"
+add address=208.89.208.0/21 list="ZOOM" comment="PrefixList"
+add address=208.115.96.0/19 list="ZOOM" comment="PrefixList"
+add address=209.90.224.0/20 list="ZOOM" comment="PrefixList"
+add address=216.176.176.0/20 list="ZOOM" comment="PrefixList"
+add address=216.244.64.0/19 list="ZOOM" comment="PrefixList"
 
 # ---------------------------------------------------------------------
 # IPv6 Firewall Address List: [ZOOM] (1 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="ZOOM" comment="PrefixList"]
-add address=2620:111:7000::/44 list="ZOOM" comment="PrefixList"
+add address=2607:f8f8::/32 list="ZOOM" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

@@ -5,22 +5,20 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "OPENAI"
 # Content Source: OpenAI (ASNs: 204990)
-# IPv4 Prefixes: 3 | IPv6 Prefixes: 1 | Total: 4
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 1 | IPv6 Prefixes: 1 | Total: 2
+# Generated At: 2026-10-16 19:11:56 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/openai.rsc" dst-path="OPENAI.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/openai.rsc" dst-path="OPENAI.rsc"
 #   /import OPENAI.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [OPENAI] (3 entries)
+# IPv4 Firewall Address List: [OPENAI] (1 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="OPENAI" comment="PrefixList"]
-add address=20.0.0.0/12 list="OPENAI" comment="PrefixList"
-add address=104.18.0.0/15 list="OPENAI" comment="PrefixList"
-add address=172.64.0.0/13 list="OPENAI" comment="PrefixList"
+add address=185.232.144.0/22 list="OPENAI" comment="PrefixList"
 
 # ---------------------------------------------------------------------
 # IPv6 Firewall Address List: [OPENAI] (1 entries)

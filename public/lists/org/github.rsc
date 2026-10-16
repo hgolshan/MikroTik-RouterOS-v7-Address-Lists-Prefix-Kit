@@ -5,25 +5,21 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "GITHUB"
 # Content Source: GitHub (ASNs: 36459)
-# IPv4 Prefixes: 7 | IPv6 Prefixes: 2 | Total: 9
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 3 | IPv6 Prefixes: 2 | Total: 5
+# Generated At: 2026-10-16 19:11:49 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/github.rsc" dst-path="GITHUB.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/github.rsc" dst-path="GITHUB.rsc"
 #   /import GITHUB.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [GITHUB] (7 entries)
+# IPv4 Firewall Address List: [GITHUB] (3 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="GITHUB" comment="PrefixList"]
-add address=13.234.176.102/32 list="GITHUB" comment="PrefixList"
-add address=20.27.177.113/32 list="GITHUB" comment="PrefixList"
-add address=20.201.28.151/32 list="GITHUB" comment="PrefixList"
-add address=20.205.243.166/32 list="GITHUB" comment="PrefixList"
 add address=140.82.112.0/20 list="GITHUB" comment="PrefixList"
-add address=185.199.108.0/22 list="GITHUB" comment="PrefixList"
+add address=143.55.64.0/20 list="GITHUB" comment="PrefixList"
 add address=192.30.252.0/22 list="GITHUB" comment="PrefixList"
 
 # ---------------------------------------------------------------------
@@ -31,7 +27,7 @@ add address=192.30.252.0/22 list="GITHUB" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="GITHUB" comment="PrefixList"]
-add address=2606:50c0:8000::/36 list="GITHUB" comment="PrefixList"
-add address=2a04:4e42::/36 list="GITHUB" comment="PrefixList"
+add address=2a0a:a440::/29 list="GITHUB" comment="PrefixList"
+add address=2620:112:3000::/44 list="GITHUB" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

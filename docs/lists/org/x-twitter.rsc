@@ -5,30 +5,37 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "X"
 # Content Source: X (formerly Twitter) (ASNs: 13414)
-# IPv4 Prefixes: 4 | IPv6 Prefixes: 2 | Total: 6
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 10 | IPv6 Prefixes: 3 | Total: 13
+# Generated At: 2026-10-16 19:11:54 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/x-twitter.rsc" dst-path="X.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/x-twitter.rsc" dst-path="X.rsc"
 #   /import X.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [X] (4 entries)
+# IPv4 Firewall Address List: [X] (10 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="X" comment="PrefixList"]
-add address=104.244.42.0/23 list="X" comment="PrefixList"
+add address=64.63.0.0/18 list="X" comment="PrefixList"
+add address=103.252.112.0/22 list="X" comment="PrefixList"
+add address=104.244.42.0/24 list="X" comment="PrefixList"
+add address=104.244.44.0/22 list="X" comment="PrefixList"
+add address=188.64.224.0/21 list="X" comment="PrefixList"
+add address=192.133.76.0/22 list="X" comment="PrefixList"
 add address=199.16.156.0/22 list="X" comment="PrefixList"
 add address=199.59.148.0/22 list="X" comment="PrefixList"
-add address=199.96.56.0/21 list="X" comment="PrefixList"
+add address=199.96.56.0/23 list="X" comment="PrefixList"
+add address=202.160.128.0/22 list="X" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [X] (2 entries)
+# IPv6 Firewall Address List: [X] (3 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="X" comment="PrefixList"]
-add address=2803:2260::/32 list="X" comment="PrefixList"
-add address=2a04:4e42::/36 list="X" comment="PrefixList"
+add address=2a04:9d40:f000::/36 list="X" comment="PrefixList"
+add address=2606:1f80:f000::/36 list="X" comment="PrefixList"
+add address=2400:6680:f000::/36 list="X" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

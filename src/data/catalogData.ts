@@ -28,7 +28,18 @@ export interface CountryItem {
   ipv6Prefixes: string[];
 }
 
-export const POPULAR_ORGANIZATIONS: OrgItem[] = [
+import livePrefixesJson from './livePrefixes.json';
+
+const liveData = (livePrefixesJson || {}) as Record<
+  string,
+  {
+    ipv4Prefixes?: string[];
+    ipv6Prefixes?: string[];
+    lastUpdated?: string;
+  }
+>;
+
+export const BASE_POPULAR_ORGANIZATIONS: OrgItem[] = [
   {
     id: 'google',
     name: 'Google & YouTube',
@@ -460,7 +471,7 @@ export const POPULAR_ORGANIZATIONS: OrgItem[] = [
   }
 ];
 
-export const POPULAR_COUNTRIES: CountryItem[] = [
+export const BASE_POPULAR_COUNTRIES: CountryItem[] = [
   {
     code: 'US',
     iso3: 'USA',
@@ -722,3 +733,33 @@ export const POPULAR_COUNTRIES: CountryItem[] = [
     ipv6Prefixes: ['2a01:d0::/32']
   }
 ];
+
+export const POPULAR_ORGANIZATIONS: OrgItem[] = BASE_POPULAR_ORGANIZATIONS.map((org) => {
+  const live = liveData[org.id];
+  if (
+    live &&
+    ((live.ipv4Prefixes && live.ipv4Prefixes.length > 0) ||
+      (live.ipv6Prefixes && live.ipv6Prefixes.length > 0))
+  ) {
+    return {
+      ...org,
+      ipv4Prefixes: live.ipv4Prefixes && live.ipv4Prefixes.length > 0 ? live.ipv4Prefixes : org.ipv4Prefixes,
+      ipv6Prefixes: live.ipv6Prefixes && live.ipv6Prefixes.length > 0 ? live.ipv6Prefixes : org.ipv6Prefixes,
+      lastUpdated: live.lastUpdated ?? org.lastUpdated,
+    };
+  }
+  return org;
+});
+
+export const POPULAR_COUNTRIES: CountryItem[] = BASE_POPULAR_COUNTRIES.map((c) => {
+  const live = liveData[`country-${c.code.toLowerCase()}`];
+  if (live && live.ipv4Prefixes && live.ipv4Prefixes.length > 0) {
+    return {
+      ...c,
+      ipv4Prefixes: live.ipv4Prefixes,
+      ipv6Prefixes: live.ipv6Prefixes && live.ipv6Prefixes.length > 0 ? live.ipv6Prefixes : c.ipv6Prefixes,
+      estimatedPrefixCount: live.ipv4Prefixes.length + (live.ipv6Prefixes?.length || 0),
+    };
+  }
+  return c;
+});

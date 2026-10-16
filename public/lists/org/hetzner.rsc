@@ -5,45 +5,113 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "HETZNER"
 # Content Source: Hetzner Online (ASNs: 24940, 213230)
-# IPv4 Prefixes: 19 | IPv6 Prefixes: 2 | Total: 21
-# Generated At: 2026-10-11 07:59:11 UTC
+# IPv4 Prefixes: 84 | IPv6 Prefixes: 5 | Total: 89
+# Generated At: 2026-10-16 19:11:52 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/hetzner.rsc" dst-path="HETZNER.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/hetzner.rsc" dst-path="HETZNER.rsc"
 #   /import HETZNER.rsc
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [HETZNER] (19 entries)
+# IPv4 Firewall Address List: [HETZNER] (84 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="HETZNER" comment="PrefixList"]
+add address=2.28.0.0/15 list="HETZNER" comment="PrefixList"
+add address=2.31.0.0/16 list="HETZNER" comment="PrefixList"
+add address=5.9.0.0/16 list="HETZNER" comment="PrefixList"
+add address=5.75.128.0/17 list="HETZNER" comment="PrefixList"
+add address=5.161.0.0/16 list="HETZNER" comment="PrefixList"
+add address=23.88.0.0/17 list="HETZNER" comment="PrefixList"
+add address=31.58.88.0/24 list="HETZNER" comment="PrefixList"
+add address=37.27.0.0/16 list="HETZNER" comment="PrefixList"
+add address=45.15.99.0/24 list="HETZNER" comment="PrefixList"
+add address=45.145.227.0/24 list="HETZNER" comment="PrefixList"
+add address=46.4.0.0/16 list="HETZNER" comment="PrefixList"
+add address=46.62.128.0/17 list="HETZNER" comment="PrefixList"
+add address=46.224.0.0/15 list="HETZNER" comment="PrefixList"
 add address=49.12.0.0/15 list="HETZNER" comment="PrefixList"
+add address=62.238.0.0/17 list="HETZNER" comment="PrefixList"
+add address=65.21.0.0/16 list="HETZNER" comment="PrefixList"
+add address=65.108.0.0/15 list="HETZNER" comment="PrefixList"
+add address=77.42.0.0/17 list="HETZNER" comment="PrefixList"
 add address=78.46.0.0/15 list="HETZNER" comment="PrefixList"
+add address=78.138.62.0/24 list="HETZNER" comment="PrefixList"
+add address=85.10.192.0/18 list="HETZNER" comment="PrefixList"
+add address=85.93.20.0/24 list="HETZNER" comment="PrefixList"
+add address=87.99.128.0/17 list="HETZNER" comment="PrefixList"
+add address=88.99.0.0/16 list="HETZNER" comment="PrefixList"
 add address=88.198.0.0/16 list="HETZNER" comment="PrefixList"
+add address=89.167.0.0/17 list="HETZNER" comment="PrefixList"
+add address=91.98.0.0/15 list="HETZNER" comment="PrefixList"
+add address=91.107.128.0/17 list="HETZNER" comment="PrefixList"
+add address=91.190.240.0/21 list="HETZNER" comment="PrefixList"
 add address=94.130.0.0/16 list="HETZNER" comment="PrefixList"
 add address=95.216.0.0/15 list="HETZNER" comment="PrefixList"
 add address=116.202.0.0/15 list="HETZNER" comment="PrefixList"
-add address=128.140.0.0/15 list="HETZNER" comment="PrefixList"
+add address=128.140.0.0/17 list="HETZNER" comment="PrefixList"
 add address=135.181.0.0/16 list="HETZNER" comment="PrefixList"
 add address=136.243.0.0/16 list="HETZNER" comment="PrefixList"
+add address=138.199.128.0/17 list="HETZNER" comment="PrefixList"
 add address=138.201.0.0/16 list="HETZNER" comment="PrefixList"
 add address=142.132.128.0/17 list="HETZNER" comment="PrefixList"
 add address=144.76.0.0/16 list="HETZNER" comment="PrefixList"
 add address=148.251.0.0/16 list="HETZNER" comment="PrefixList"
+add address=157.90.0.0/16 list="HETZNER" comment="PrefixList"
+add address=157.180.0.0/17 list="HETZNER" comment="PrefixList"
 add address=159.69.0.0/16 list="HETZNER" comment="PrefixList"
 add address=162.55.0.0/16 list="HETZNER" comment="PrefixList"
+add address=167.233.0.0/16 list="HETZNER" comment="PrefixList"
+add address=167.235.0.0/16 list="HETZNER" comment="PrefixList"
 add address=168.119.0.0/16 list="HETZNER" comment="PrefixList"
+add address=171.25.225.0/24 list="HETZNER" comment="PrefixList"
+add address=176.9.0.0/16 list="HETZNER" comment="PrefixList"
 add address=178.63.0.0/16 list="HETZNER" comment="PrefixList"
+add address=178.104.0.0/15 list="HETZNER" comment="PrefixList"
+add address=178.156.128.0/17 list="HETZNER" comment="PrefixList"
+add address=178.212.75.0/24 list="HETZNER" comment="PrefixList"
+add address=185.12.65.0/24 list="HETZNER" comment="PrefixList"
+add address=185.50.120.0/23 list="HETZNER" comment="PrefixList"
+add address=185.107.52.0/22 list="HETZNER" comment="PrefixList"
+add address=185.126.28.0/22 list="HETZNER" comment="PrefixList"
+add address=185.157.83.0/24 list="HETZNER" comment="PrefixList"
+add address=185.157.176.0/22 list="HETZNER" comment="PrefixList"
+add address=185.171.224.0/22 list="HETZNER" comment="PrefixList"
+add address=185.189.228.0/22 list="HETZNER" comment="PrefixList"
+add address=185.213.45.0/24 list="HETZNER" comment="PrefixList"
+add address=185.216.237.0/24 list="HETZNER" comment="PrefixList"
+add address=185.226.99.0/24 list="HETZNER" comment="PrefixList"
+add address=185.228.8.0/23 list="HETZNER" comment="PrefixList"
+add address=188.34.128.0/17 list="HETZNER" comment="PrefixList"
 add address=188.40.0.0/16 list="HETZNER" comment="PrefixList"
+add address=188.245.0.0/16 list="HETZNER" comment="PrefixList"
+add address=193.105.82.0/24 list="HETZNER" comment="PrefixList"
+add address=193.110.6.0/23 list="HETZNER" comment="PrefixList"
+add address=193.163.198.0/24 list="HETZNER" comment="PrefixList"
+add address=194.42.180.0/22 list="HETZNER" comment="PrefixList"
+add address=194.42.184.0/22 list="HETZNER" comment="PrefixList"
+add address=194.62.106.0/24 list="HETZNER" comment="PrefixList"
+add address=195.60.226.0/24 list="HETZNER" comment="PrefixList"
 add address=195.201.0.0/16 list="HETZNER" comment="PrefixList"
+add address=195.248.224.0/24 list="HETZNER" comment="PrefixList"
+add address=197.242.84.0/22 list="HETZNER" comment="PrefixList"
+add address=201.131.3.0/24 list="HETZNER" comment="PrefixList"
+add address=204.29.146.0/24 list="HETZNER" comment="PrefixList"
+add address=204.168.128.0/17 list="HETZNER" comment="PrefixList"
+add address=213.133.96.0/19 list="HETZNER" comment="PrefixList"
+add address=213.239.192.0/18 list="HETZNER" comment="PrefixList"
+add address=216.55.108.0/22 list="HETZNER" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [HETZNER] (2 entries)
+# IPv6 Firewall Address List: [HETZNER] (5 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="HETZNER" comment="PrefixList"]
-add address=2a01:4f8::/31 list="HETZNER" comment="PrefixList"
+add address=2a12:2240::/29 list="HETZNER" comment="PrefixList"
+add address=2a06:be80::/29 list="HETZNER" comment="PrefixList"
+add address=2a01:4f8::/32 list="HETZNER" comment="PrefixList"
 add address=2a01:4f9::/32 list="HETZNER" comment="PrefixList"
+add address=2a01:4ff::/40 list="HETZNER" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

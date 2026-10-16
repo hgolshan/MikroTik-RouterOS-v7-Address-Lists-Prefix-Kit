@@ -6,10 +6,10 @@
 # Target List: "SPOTIFY"
 # Content Source: Spotify (ASNs: 8403)
 # IPv4 Prefixes: 5 | IPv6 Prefixes: 1 | Total: 6
-# Generated At: 2026-10-11 07:59:11 UTC
+# Generated At: 2026-10-16 19:11:53 UTC
 #
 # Quick Import in RouterOS Terminal:
-#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/prefixlist/main/public/lists/org/spotify.rsc" dst-path="SPOTIFY.rsc"
+#   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/spotify.rsc" dst-path="SPOTIFY.rsc"
 #   /import SPOTIFY.rsc
 # =====================================================================
 
