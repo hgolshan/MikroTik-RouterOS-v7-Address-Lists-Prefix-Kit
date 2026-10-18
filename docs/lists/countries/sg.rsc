@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "SG"
 # Content Source: Singapore (SG)
-# IPv4 Prefixes: 1756 | IPv6 Prefixes: 2 | Total: 1758
-# Generated At: 2026-10-16 19:12:06 UTC
+# IPv4 Prefixes: 1757 | IPv6 Prefixes: 2 | Total: 1759
+# Generated At: 2026-10-18 06:46:53 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/sg.rsc" dst-path="SG.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [SG] (1756 entries)
+# IPv4 Firewall Address List: [SG] (1757 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="SG" comment="PrefixList"]
@@ -901,6 +901,7 @@ add address=119.161.100.0/22 list="SG" comment="PrefixList"
 add address=119.234.0.0/16 list="SG" comment="PrefixList"
 add address=120.50.32.0/20 list="SG" comment="PrefixList"
 add address=120.51.96.0/19 list="SG" comment="PrefixList"
+add address=120.160.0.0/12 list="SG" comment="PrefixList"
 add address=121.6.0.0/15 list="SG" comment="PrefixList"
 add address=121.46.72.0/23 list="SG" comment="PrefixList"
 add address=121.50.216.0/21 list="SG" comment="PrefixList"

@@ -6,7 +6,7 @@
 # Target List: "FR"
 # Content Source: France (FR)
 # IPv4 Prefixes: 4174 | IPv6 Prefixes: 3 | Total: 4177
-# Generated At: 2026-10-16 19:12:02 UTC
+# Generated At: 2026-10-18 06:46:52 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/fr.rsc" dst-path="FR.rsc"

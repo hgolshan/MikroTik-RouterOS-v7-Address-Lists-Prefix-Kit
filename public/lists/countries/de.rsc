@@ -6,7 +6,7 @@
 # Target List: "DE"
 # Content Source: Germany (DE)
 # IPv4 Prefixes: 8750 | IPv6 Prefixes: 3 | Total: 8753
-# Generated At: 2026-10-16 19:12:02 UTC
+# Generated At: 2026-10-18 06:46:51 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/de.rsc" dst-path="DE.rsc"

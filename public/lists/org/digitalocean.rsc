@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "DIGITALOCEAN"
 # Content Source: DigitalOcean (ASNs: 14061)
-# IPv4 Prefixes: 168 | IPv6 Prefixes: 11 | Total: 179
-# Generated At: 2026-10-16 19:11:53 UTC
+# IPv4 Prefixes: 168 | IPv6 Prefixes: 15 | Total: 183
+# Generated At: 2026-10-18 06:46:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/digitalocean.rsc" dst-path="DIGITALOCEAN.rsc"
@@ -188,20 +188,24 @@ add address=209.38.0.0/16 list="DIGITALOCEAN" comment="PrefixList"
 add address=209.97.128.0/18 list="DIGITALOCEAN" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [DIGITALOCEAN] (11 entries)
+# IPv6 Firewall Address List: [DIGITALOCEAN] (15 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="DIGITALOCEAN" comment="PrefixList"]
 add address=2400:6180:100::/40 list="DIGITALOCEAN" comment="PrefixList"
-add address=2604:a880:1::/48 list="DIGITALOCEAN" comment="PrefixList"
-add address=2a03:b0c0:2::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2604:a880:800::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2604:a880:400::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2a03:b0c0:3::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2604:a880:5::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2604:a880:7::/48 list="DIGITALOCEAN" comment="PrefixList"
 add address=2604:a880:cad::/48 list="DIGITALOCEAN" comment="PrefixList"
-add address=2604:a880:4::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2a03:b0c0:1::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2a03:b0c0:fffc::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2604:a880:8::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2604:a880:2::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2400:6180::/48 list="DIGITALOCEAN" comment="PrefixList"
+add address=2a03:b0c0::/48 list="DIGITALOCEAN" comment="PrefixList"
 add address=2604:a880:6::/48 list="DIGITALOCEAN" comment="PrefixList"
 add address=2604:a880::/48 list="DIGITALOCEAN" comment="PrefixList"
-add address=2400:6180:10::/48 list="DIGITALOCEAN" comment="PrefixList"
-add address=2a03:b0c0:ffff::/48 list="DIGITALOCEAN" comment="PrefixList"
-add address=2a03:b0c0::/48 list="DIGITALOCEAN" comment="PrefixList"
-add address=2400:6180::/48 list="DIGITALOCEAN" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

@@ -6,7 +6,7 @@
 # Target List: "APPLE"
 # Content Source: Apple Services & iCloud (ASNs: 714)
 # IPv4 Prefixes: 5 | IPv6 Prefixes: 5 | Total: 10
-# Generated At: 2026-10-16 19:11:49 UTC
+# Generated At: 2026-10-18 06:46:36 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/apple.rsc" dst-path="APPLE.rsc"
@@ -29,9 +29,9 @@ add address=144.178.0.0/18 list="APPLE" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="APPLE" comment="PrefixList"]
+add address=2a01:b740::/32 list="APPLE" comment="PrefixList"
 add address=2620:149::/32 list="APPLE" comment="PrefixList"
 add address=2403:300::/32 list="APPLE" comment="PrefixList"
-add address=2a01:b740::/32 list="APPLE" comment="PrefixList"
 add address=2a01:b747::/32 list="APPLE" comment="PrefixList"
 add address=2620:0:1b00::/48 list="APPLE" comment="PrefixList"
 

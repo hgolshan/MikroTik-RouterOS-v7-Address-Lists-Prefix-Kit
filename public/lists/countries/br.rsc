@@ -6,7 +6,7 @@
 # Target List: "BR"
 # Content Source: Brazil (BR)
 # IPv4 Prefixes: 4929 | IPv6 Prefixes: 1 | Total: 4930
-# Generated At: 2026-10-16 19:12:05 UTC
+# Generated At: 2026-10-18 06:46:53 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/br.rsc" dst-path="BR.rsc"

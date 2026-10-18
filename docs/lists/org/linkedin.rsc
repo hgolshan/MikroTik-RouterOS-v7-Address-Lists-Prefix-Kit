@@ -6,7 +6,7 @@
 # Target List: "LINKEDIN"
 # Content Source: LinkedIn (ASNs: 55002)
 # IPv4 Prefixes: 1 | IPv6 Prefixes: 1 | Total: 2
-# Generated At: 2026-10-16 19:11:54 UTC
+# Generated At: 2026-10-18 06:46:47 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/linkedin.rsc" dst-path="LINKEDIN.rsc"

@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "UA"
 # Content Source: Ukraine (UA)
-# IPv4 Prefixes: 2662 | IPv6 Prefixes: 1 | Total: 2663
-# Generated At: 2026-10-16 19:12:08 UTC
+# IPv4 Prefixes: 2669 | IPv6 Prefixes: 1 | Total: 2670
+# Generated At: 2026-10-18 06:46:55 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ua.rsc" dst-path="UA.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [UA] (2662 entries)
+# IPv4 Firewall Address List: [UA] (2669 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="UA" comment="PrefixList"]
@@ -171,6 +171,7 @@ add address=45.153.174.0/24 list="UA" comment="PrefixList"
 add address=45.154.116.0/22 list="UA" comment="PrefixList"
 add address=45.154.128.0/22 list="UA" comment="PrefixList"
 add address=45.154.140.0/22 list="UA" comment="PrefixList"
+add address=45.154.204.0/22 list="UA" comment="PrefixList"
 add address=45.154.218.0/24 list="UA" comment="PrefixList"
 add address=45.155.80.0/22 list="UA" comment="PrefixList"
 add address=45.156.36.0/22 list="UA" comment="PrefixList"
@@ -939,6 +940,7 @@ add address=91.235.142.0/23 list="UA" comment="PrefixList"
 add address=91.235.224.0/22 list="UA" comment="PrefixList"
 add address=91.236.36.0/24 list="UA" comment="PrefixList"
 add address=91.236.96.0/22 list="UA" comment="PrefixList"
+add address=91.236.116.0/24 list="UA" comment="PrefixList"
 add address=91.236.126.0/23 list="UA" comment="PrefixList"
 add address=91.236.138.0/23 list="UA" comment="PrefixList"
 add address=91.236.156.0/22 list="UA" comment="PrefixList"
@@ -1551,6 +1553,7 @@ add address=185.210.160.0/24 list="UA" comment="PrefixList"
 add address=185.213.40.0/22 list="UA" comment="PrefixList"
 add address=185.213.232.0/22 list="UA" comment="PrefixList"
 add address=185.216.51.0/24 list="UA" comment="PrefixList"
+add address=185.217.0.0/22 list="UA" comment="PrefixList"
 add address=185.218.140.0/24 list="UA" comment="PrefixList"
 add address=185.218.142.0/24 list="UA" comment="PrefixList"
 add address=185.218.187.0/24 list="UA" comment="PrefixList"
@@ -1590,6 +1593,7 @@ add address=185.236.46.0/24 list="UA" comment="PrefixList"
 add address=185.236.76.0/22 list="UA" comment="PrefixList"
 add address=185.237.72.0/22 list="UA" comment="PrefixList"
 add address=185.237.166.0/24 list="UA" comment="PrefixList"
+add address=185.237.185.0/24 list="UA" comment="PrefixList"
 add address=185.237.204.0/22 list="UA" comment="PrefixList"
 add address=185.238.114.0/24 list="UA" comment="PrefixList"
 add address=185.238.136.0/24 list="UA" comment="PrefixList"
@@ -1599,6 +1603,7 @@ add address=185.239.184.0/22 list="UA" comment="PrefixList"
 add address=185.241.109.0/24 list="UA" comment="PrefixList"
 add address=185.244.140.0/22 list="UA" comment="PrefixList"
 add address=185.244.168.0/22 list="UA" comment="PrefixList"
+add address=185.246.128.0/22 list="UA" comment="PrefixList"
 add address=185.247.20.0/22 list="UA" comment="PrefixList"
 add address=185.247.208.0/22 list="UA" comment="PrefixList"
 add address=185.248.128.0/22 list="UA" comment="PrefixList"
@@ -1609,6 +1614,7 @@ add address=185.252.92.0/22 list="UA" comment="PrefixList"
 add address=185.253.74.0/24 list="UA" comment="PrefixList"
 add address=185.254.192.0/21 list="UA" comment="PrefixList"
 add address=185.255.48.0/22 list="UA" comment="PrefixList"
+add address=185.255.120.0/22 list="UA" comment="PrefixList"
 add address=185.255.196.0/22 list="UA" comment="PrefixList"
 add address=188.0.64.0/19 list="UA" comment="PrefixList"
 add address=188.64.141.0/24 list="UA" comment="PrefixList"
@@ -1821,7 +1827,7 @@ add address=193.105.41.0/24 list="UA" comment="PrefixList"
 add address=193.105.62.0/24 list="UA" comment="PrefixList"
 add address=193.105.70.0/24 list="UA" comment="PrefixList"
 add address=193.105.124.0/24 list="UA" comment="PrefixList"
-add address=193.105.135.0/24 list="UA" comment="PrefixList"
+add address=193.105.134.0/23 list="UA" comment="PrefixList"
 add address=193.105.152.0/24 list="UA" comment="PrefixList"
 add address=193.105.164.0/24 list="UA" comment="PrefixList"
 add address=193.105.171.0/24 list="UA" comment="PrefixList"
@@ -2435,6 +2441,7 @@ add address=195.137.185.0/24 list="UA" comment="PrefixList"
 add address=195.137.196.0/23 list="UA" comment="PrefixList"
 add address=195.137.202.0/23 list="UA" comment="PrefixList"
 add address=195.137.218.0/23 list="UA" comment="PrefixList"
+add address=195.137.220.0/24 list="UA" comment="PrefixList"
 add address=195.137.232.0/23 list="UA" comment="PrefixList"
 add address=195.137.240.0/23 list="UA" comment="PrefixList"
 add address=195.137.244.0/23 list="UA" comment="PrefixList"

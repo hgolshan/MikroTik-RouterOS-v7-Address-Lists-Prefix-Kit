@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "VALVE"
 # Content Source: Valve Steam (ASNs: 32590)
-# IPv4 Prefixes: 20 | IPv6 Prefixes: 26 | Total: 46
-# Generated At: 2026-10-16 19:11:55 UTC
+# IPv4 Prefixes: 20 | IPv6 Prefixes: 22 | Total: 42
+# Generated At: 2026-10-18 06:46:47 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/valve.rsc" dst-path="VALVE.rsc"
@@ -40,35 +40,31 @@ add address=208.64.200.0/22 list="VALVE" comment="PrefixList"
 add address=208.78.164.0/22 list="VALVE" comment="PrefixList"
 
 # ---------------------------------------------------------------------
-# IPv6 Firewall Address List: [VALVE] (26 entries)
+# IPv6 Firewall Address List: [VALVE] (22 entries)
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="VALVE" comment="PrefixList"]
-add address=2404:3fc0:8::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80:1::/48 list="VALVE" comment="PrefixList"
-add address=2404:3fc0:1::/48 list="VALVE" comment="PrefixList"
-add address=2404:3fc0:a::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f006::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f005::/48 list="VALVE" comment="PrefixList"
+add address=2a01:bc80:3::/48 list="VALVE" comment="PrefixList"
 add address=2a01:bc80:4::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80:9::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80:5::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f005::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f00a::/48 list="VALVE" comment="PrefixList"
+add address=2a01:bc80:a::/48 list="VALVE" comment="PrefixList"
+add address=2a01:bc80::/48 list="VALVE" comment="PrefixList"
+add address=2404:3fc0:2::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f00d::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f002::/48 list="VALVE" comment="PrefixList"
 add address=2602:801:f001::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f006::/48 list="VALVE" comment="PrefixList"
+add address=2404:3fc0:1::/48 list="VALVE" comment="PrefixList"
+add address=2404:3fc0:9::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f00e::/48 list="VALVE" comment="PrefixList"
 add address=2404:3fc0:3::/48 list="VALVE" comment="PrefixList"
 add address=2602:801:f007::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80:c::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f00a::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f002::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f00b::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f000::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80:6::/48 list="VALVE" comment="PrefixList"
-add address=2404:3fc0::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80:b::/48 list="VALVE" comment="PrefixList"
-add address=2a01:bc80::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f003::/48 list="VALVE" comment="PrefixList"
 add address=2602:801:f008::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f00e::/48 list="VALVE" comment="PrefixList"
-add address=2602:801:f00d::/48 list="VALVE" comment="PrefixList"
 add address=2602:801:f009::/48 list="VALVE" comment="PrefixList"
+add address=2404:3fc0::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f000::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f003::/48 list="VALVE" comment="PrefixList"
+add address=2602:801:f00b::/48 list="VALVE" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

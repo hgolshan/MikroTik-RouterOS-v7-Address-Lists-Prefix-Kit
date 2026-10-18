@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "CH"
 # Content Source: Switzerland (CH)
-# IPv4 Prefixes: 2685 | IPv6 Prefixes: 1 | Total: 2686
-# Generated At: 2026-10-16 19:11:51 UTC
+# IPv4 Prefixes: 2686 | IPv6 Prefixes: 1 | Total: 2687
+# Generated At: 2026-10-18 06:46:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ch.rsc" dst-path="CH.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [CH] (2685 entries)
+# IPv4 Firewall Address List: [CH] (2686 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="CH" comment="PrefixList"]
@@ -324,6 +324,7 @@ add address=80.94.144.0/20 list="CH" comment="PrefixList"
 add address=80.173.148.0/22 list="CH" comment="PrefixList"
 add address=80.208.128.0/18 list="CH" comment="PrefixList"
 add address=80.218.0.0/15 list="CH" comment="PrefixList"
+add address=80.224.216.0/23 list="CH" comment="PrefixList"
 add address=80.241.96.0/20 list="CH" comment="PrefixList"
 add address=80.242.192.0/20 list="CH" comment="PrefixList"
 add address=80.243.208.0/20 list="CH" comment="PrefixList"

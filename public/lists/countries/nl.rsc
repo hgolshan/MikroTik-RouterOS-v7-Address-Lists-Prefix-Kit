@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "NL"
 # Content Source: Netherlands (NL)
-# IPv4 Prefixes: 5721 | IPv6 Prefixes: 2 | Total: 5723
-# Generated At: 2026-10-16 19:12:04 UTC
+# IPv4 Prefixes: 5720 | IPv6 Prefixes: 2 | Total: 5722
+# Generated At: 2026-10-18 06:46:52 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/nl.rsc" dst-path="NL.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [NL] (5721 entries)
+# IPv4 Firewall Address List: [NL] (5720 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="NL" comment="PrefixList"]
@@ -2475,7 +2475,6 @@ add address=149.245.192.0/19 list="NL" comment="PrefixList"
 add address=149.245.224.0/20 list="NL" comment="PrefixList"
 add address=149.245.240.0/21 list="NL" comment="PrefixList"
 add address=149.245.248.0/22 list="NL" comment="PrefixList"
-add address=149.245.253.0/24 list="NL" comment="PrefixList"
 add address=149.245.254.0/23 list="NL" comment="PrefixList"
 add address=150.129.8.0/22 list="NL" comment="PrefixList"
 add address=150.237.66.0/23 list="NL" comment="PrefixList"

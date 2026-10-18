@@ -6,7 +6,7 @@
 # Target List: "TELEGRAM"
 # Content Source: Telegram Messenger (ASNs: 62041, 62014, 44907, 59930, 211157)
 # IPv4 Prefixes: 8 | IPv6 Prefixes: 5 | Total: 13
-# Generated At: 2026-10-16 19:11:48 UTC
+# Generated At: 2026-10-18 06:46:36 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/telegram.rsc" dst-path="TELEGRAM.rsc"

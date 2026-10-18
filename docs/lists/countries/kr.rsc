@@ -6,7 +6,7 @@
 # Target List: "KR"
 # Content Source: South Korea (KR)
 # IPv4 Prefixes: 999 | IPv6 Prefixes: 2 | Total: 1001
-# Generated At: 2026-10-16 19:12:07 UTC
+# Generated At: 2026-10-18 06:46:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/kr.rsc" dst-path="KR.rsc"

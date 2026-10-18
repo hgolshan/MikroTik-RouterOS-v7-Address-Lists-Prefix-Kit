@@ -6,7 +6,7 @@
 # Target List: "OVHCLOUD"
 # Content Source: OVHcloud (ASNs: 16276)
 # IPv4 Prefixes: 638 | IPv6 Prefixes: 5 | Total: 643
-# Generated At: 2026-10-16 19:11:52 UTC
+# Generated At: 2026-10-18 06:46:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/ovh.rsc" dst-path="OVHCLOUD.rsc"
@@ -373,7 +373,7 @@ add address=141.227.152.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.154.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.156.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.158.0/24 list="OVHCLOUD" comment="PrefixList"
-add address=141.227.160.0/24 list="OVHCLOUD" comment="PrefixList"
+add address=141.227.160.0/23 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.162.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.164.0/23 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.166.0/24 list="OVHCLOUD" comment="PrefixList"
@@ -382,7 +382,7 @@ add address=141.227.170.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.172.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.174.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.176.0/24 list="OVHCLOUD" comment="PrefixList"
-add address=141.227.178.0/24 list="OVHCLOUD" comment="PrefixList"
+add address=141.227.178.0/23 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.180.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.186.0/24 list="OVHCLOUD" comment="PrefixList"
 add address=141.227.188.0/23 list="OVHCLOUD" comment="PrefixList"
@@ -662,10 +662,10 @@ add address=222.167.237.0/24 list="OVHCLOUD" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="OVHCLOUD" comment="PrefixList"]
-add address=2402:1f00::/32 list="OVHCLOUD" comment="PrefixList"
 add address=2001:41d0::/32 list="OVHCLOUD" comment="PrefixList"
-add address=2604:2dc0::/32 list="OVHCLOUD" comment="PrefixList"
 add address=2607:5300::/32 list="OVHCLOUD" comment="PrefixList"
+add address=2402:1f00::/32 list="OVHCLOUD" comment="PrefixList"
+add address=2604:2dc0::/32 list="OVHCLOUD" comment="PrefixList"
 add address=2a03:bf80::/48 list="OVHCLOUD" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

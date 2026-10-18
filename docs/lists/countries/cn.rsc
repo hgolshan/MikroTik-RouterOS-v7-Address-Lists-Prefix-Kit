@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "CN"
 # Content Source: China (CN)
-# IPv4 Prefixes: 5515 | IPv6 Prefixes: 3 | Total: 5518
-# Generated At: 2026-10-16 19:12:03 UTC
+# IPv4 Prefixes: 5516 | IPv6 Prefixes: 3 | Total: 5519
+# Generated At: 2026-10-18 06:46:52 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/cn.rsc" dst-path="CN.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [CN] (5515 entries)
+# IPv4 Firewall Address List: [CN] (5516 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="CN" comment="PrefixList"]
@@ -3984,6 +3984,7 @@ add address=192.140.156.0/22 list="CN" comment="PrefixList"
 add address=192.140.160.0/19 list="CN" comment="PrefixList"
 add address=192.140.192.0/20 list="CN" comment="PrefixList"
 add address=192.140.208.0/21 list="CN" comment="PrefixList"
+add address=192.140.244.0/23 list="CN" comment="PrefixList"
 add address=192.144.128.0/17 list="CN" comment="PrefixList"
 add address=192.197.113.0/24 list="CN" comment="PrefixList"
 add address=192.232.34.0/23 list="CN" comment="PrefixList"

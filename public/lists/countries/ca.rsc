@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "CA"
 # Content Source: Canada (CA)
-# IPv4 Prefixes: 6463 | IPv6 Prefixes: 2 | Total: 6465
-# Generated At: 2026-10-16 19:12:05 UTC
+# IPv4 Prefixes: 6462 | IPv6 Prefixes: 2 | Total: 6464
+# Generated At: 2026-10-18 06:46:53 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ca.rsc" dst-path="CA.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [CA] (6463 entries)
+# IPv4 Firewall Address List: [CA] (6462 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="CA" comment="PrefixList"]
@@ -5943,7 +5943,6 @@ add address=208.89.128.0/22 list="CA" comment="PrefixList"
 add address=208.90.68.0/22 list="CA" comment="PrefixList"
 add address=208.90.80.0/21 list="CA" comment="PrefixList"
 add address=208.90.96.0/21 list="CA" comment="PrefixList"
-add address=208.90.232.0/22 list="CA" comment="PrefixList"
 add address=208.90.240.0/21 list="CA" comment="PrefixList"
 add address=208.91.244.0/22 list="CA" comment="PrefixList"
 add address=208.91.248.0/22 list="CA" comment="PrefixList"

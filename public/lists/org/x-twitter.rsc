@@ -6,7 +6,7 @@
 # Target List: "X"
 # Content Source: X (formerly Twitter) (ASNs: 13414)
 # IPv4 Prefixes: 10 | IPv6 Prefixes: 3 | Total: 13
-# Generated At: 2026-10-16 19:11:54 UTC
+# Generated At: 2026-10-18 06:46:47 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/x-twitter.rsc" dst-path="X.rsc"
@@ -34,8 +34,8 @@ add address=202.160.128.0/22 list="X" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="X" comment="PrefixList"]
-add address=2a04:9d40:f000::/36 list="X" comment="PrefixList"
 add address=2606:1f80:f000::/36 list="X" comment="PrefixList"
+add address=2a04:9d40:f000::/36 list="X" comment="PrefixList"
 add address=2400:6680:f000::/36 list="X" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

@@ -6,7 +6,7 @@
 # Target List: "SE"
 # Content Source: Sweden (SE)
 # IPv4 Prefixes: 2056 | IPv6 Prefixes: 2 | Total: 2058
-# Generated At: 2026-10-16 19:12:07 UTC
+# Generated At: 2026-10-18 06:46:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/se.rsc" dst-path="SE.rsc"
@@ -936,7 +936,7 @@ add address=164.37.49.0/24 list="SE" comment="PrefixList"
 add address=164.37.60.0/23 list="SE" comment="PrefixList"
 add address=164.37.64.0/21 list="SE" comment="PrefixList"
 add address=164.37.80.0/20 list="SE" comment="PrefixList"
-add address=164.37.128.0/18 list="SE" comment="PrefixList"
+add address=164.37.160.0/19 list="SE" comment="PrefixList"
 add address=164.40.176.0/21 list="SE" comment="PrefixList"
 add address=164.48.0.0/16 list="SE" comment="PrefixList"
 add address=164.135.0.0/16 list="SE" comment="PrefixList"

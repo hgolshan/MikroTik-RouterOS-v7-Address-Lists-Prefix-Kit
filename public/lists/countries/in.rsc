@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "IN"
 # Content Source: India (IN)
-# IPv4 Prefixes: 7216 | IPv6 Prefixes: 3 | Total: 7219
-# Generated At: 2026-10-16 19:12:04 UTC
+# IPv4 Prefixes: 7217 | IPv6 Prefixes: 3 | Total: 7220
+# Generated At: 2026-10-18 06:46:53 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/in.rsc" dst-path="IN.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [IN] (7216 entries)
+# IPv4 Firewall Address List: [IN] (7217 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="IN" comment="PrefixList"]
@@ -5542,6 +5542,7 @@ add address=119.82.64.0/18 list="IN" comment="PrefixList"
 add address=119.151.0.0/17 list="IN" comment="PrefixList"
 add address=119.151.128.0/18 list="IN" comment="PrefixList"
 add address=119.160.192.0/21 list="IN" comment="PrefixList"
+add address=119.160.208.0/23 list="IN" comment="PrefixList"
 add address=119.161.96.0/22 list="IN" comment="PrefixList"
 add address=119.226.0.0/15 list="IN" comment="PrefixList"
 add address=119.235.48.0/20 list="IN" comment="PrefixList"

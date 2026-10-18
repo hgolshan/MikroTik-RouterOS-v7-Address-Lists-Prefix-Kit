@@ -6,7 +6,7 @@
 # Target List: "DISCORD"
 # Content Source: Discord (ASNs: 54888, 397444)
 # IPv4 Prefixes: 2 | IPv6 Prefixes: 10 | Total: 12
-# Generated At: 2026-10-16 19:11:56 UTC
+# Generated At: 2026-10-18 06:46:48 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/discord.rsc" dst-path="DISCORD.rsc"
@@ -26,15 +26,15 @@ add address=208.68.6.0/23 list="DISCORD" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="DISCORD" comment="PrefixList"]
+add address=2620:6e:a003::/48 list="DISCORD" comment="PrefixList"
 add address=2620:6e:a009::/48 list="DISCORD" comment="PrefixList"
-add address=2620:6e:a008::/48 list="DISCORD" comment="PrefixList"
-add address=2620:6e:a00b::/48 list="DISCORD" comment="PrefixList"
-add address=2620:6e:a007::/48 list="DISCORD" comment="PrefixList"
-add address=2620:6e:a001::/48 list="DISCORD" comment="PrefixList"
 add address=2620:6e:a002::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a007::/48 list="DISCORD" comment="PrefixList"
 add address=2620:6e:a00a::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a001::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a00b::/48 list="DISCORD" comment="PrefixList"
 add address=2620:6e:a004::/48 list="DISCORD" comment="PrefixList"
 add address=2620:6e:a000::/48 list="DISCORD" comment="PrefixList"
-add address=2620:6e:a003::/48 list="DISCORD" comment="PrefixList"
+add address=2620:6e:a008::/48 list="DISCORD" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

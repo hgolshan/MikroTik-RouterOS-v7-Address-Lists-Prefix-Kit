@@ -6,7 +6,7 @@
 # Target List: "ZOOM"
 # Content Source: Zoom Video Communications (ASNs: 23033)
 # IPv4 Prefixes: 13 | IPv6 Prefixes: 1 | Total: 14
-# Generated At: 2026-10-16 19:11:54 UTC
+# Generated At: 2026-10-18 06:46:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/zoom.rsc" dst-path="ZOOM.rsc"
