@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "DE"
 # Content Source: Germany (DE)
-# IPv4 Prefixes: 8750 | IPv6 Prefixes: 3 | Total: 8753
-# Generated At: 2026-10-18 06:46:51 UTC
+# IPv4 Prefixes: 8752 | IPv6 Prefixes: 3 | Total: 8755
+# Generated At: 2026-10-25 07:05:01 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/de.rsc" dst-path="DE.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [DE] (8750 entries)
+# IPv4 Firewall Address List: [DE] (8752 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="DE" comment="PrefixList"]
@@ -1077,7 +1077,7 @@ add address=62.50.96.0/19 list="DE" comment="PrefixList"
 add address=62.52.0.0/14 list="DE" comment="PrefixList"
 add address=62.68.0.0/19 list="DE" comment="PrefixList"
 add address=62.68.75.0/24 list="DE" comment="PrefixList"
-add address=62.68.82.0/24 list="DE" comment="PrefixList"
+add address=62.68.82.0/23 list="DE" comment="PrefixList"
 add address=62.69.144.0/21 list="DE" comment="PrefixList"
 add address=62.72.0.0/18 list="DE" comment="PrefixList"
 add address=62.72.64.0/19 list="DE" comment="PrefixList"
@@ -1393,6 +1393,7 @@ add address=80.208.232.0/21 list="DE" comment="PrefixList"
 add address=80.208.255.0/24 list="DE" comment="PrefixList"
 add address=80.209.192.0/19 list="DE" comment="PrefixList"
 add address=80.209.244.0/22 list="DE" comment="PrefixList"
+add address=80.224.218.0/23 list="DE" comment="PrefixList"
 add address=80.224.236.0/23 list="DE" comment="PrefixList"
 add address=80.224.252.0/24 list="DE" comment="PrefixList"
 add address=80.226.0.0/16 list="DE" comment="PrefixList"
@@ -3186,6 +3187,7 @@ add address=149.236.0.0/14 list="DE" comment="PrefixList"
 add address=149.240.0.0/16 list="DE" comment="PrefixList"
 add address=149.242.0.0/15 list="DE" comment="PrefixList"
 add address=149.244.0.0/16 list="DE" comment="PrefixList"
+add address=149.245.243.0/24 list="DE" comment="PrefixList"
 add address=149.246.0.0/15 list="DE" comment="PrefixList"
 add address=149.249.0.0/16 list="DE" comment="PrefixList"
 add address=149.250.0.0/16 list="DE" comment="PrefixList"
@@ -8201,7 +8203,7 @@ add address=209.126.96.0/19 list="DE" comment="PrefixList"
 add address=209.131.118.0/24 list="DE" comment="PrefixList"
 add address=209.141.224.0/19 list="DE" comment="PrefixList"
 add address=209.161.104.0/22 list="DE" comment="PrefixList"
-add address=209.206.38.0/23 list="DE" comment="PrefixList"
+add address=209.206.38.0/24 list="DE" comment="PrefixList"
 add address=209.213.48.0/20 list="DE" comment="PrefixList"
 add address=209.239.112.0/20 list="DE" comment="PrefixList"
 add address=212.0.0.0/18 list="DE" comment="PrefixList"

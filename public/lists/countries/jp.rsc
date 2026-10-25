@@ -6,7 +6,7 @@
 # Target List: "JP"
 # Content Source: Japan (JP)
 # IPv4 Prefixes: 3201 | IPv6 Prefixes: 3 | Total: 3204
-# Generated At: 2026-10-18 06:46:52 UTC
+# Generated At: 2026-10-25 07:05:02 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/jp.rsc" dst-path="JP.rsc"

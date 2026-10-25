@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "NL"
 # Content Source: Netherlands (NL)
-# IPv4 Prefixes: 5720 | IPv6 Prefixes: 2 | Total: 5722
-# Generated At: 2026-10-18 06:46:52 UTC
+# IPv4 Prefixes: 5717 | IPv6 Prefixes: 2 | Total: 5719
+# Generated At: 2026-10-25 07:05:02 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/nl.rsc" dst-path="NL.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [NL] (5720 entries)
+# IPv4 Firewall Address List: [NL] (5717 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="NL" comment="PrefixList"]
@@ -2203,13 +2203,9 @@ add address=130.78.120.0/21 list="NL" comment="PrefixList"
 add address=130.78.128.0/19 list="NL" comment="PrefixList"
 add address=130.78.160.0/20 list="NL" comment="PrefixList"
 add address=130.78.184.0/21 list="NL" comment="PrefixList"
-add address=130.78.192.0/20 list="NL" comment="PrefixList"
-add address=130.78.208.0/21 list="NL" comment="PrefixList"
 add address=130.78.222.0/23 list="NL" comment="PrefixList"
-add address=130.78.224.0/20 list="NL" comment="PrefixList"
 add address=130.78.241.0/24 list="NL" comment="PrefixList"
 add address=130.78.242.0/23 list="NL" comment="PrefixList"
-add address=130.78.248.0/21 list="NL" comment="PrefixList"
 add address=130.89.0.0/16 list="NL" comment="PrefixList"
 add address=130.112.0.0/16 list="NL" comment="PrefixList"
 add address=130.115.0.0/16 list="NL" comment="PrefixList"
@@ -2473,7 +2469,8 @@ add address=149.245.0.0/17 list="NL" comment="PrefixList"
 add address=149.245.128.0/18 list="NL" comment="PrefixList"
 add address=149.245.192.0/19 list="NL" comment="PrefixList"
 add address=149.245.224.0/20 list="NL" comment="PrefixList"
-add address=149.245.240.0/21 list="NL" comment="PrefixList"
+add address=149.245.240.0/23 list="NL" comment="PrefixList"
+add address=149.245.244.0/22 list="NL" comment="PrefixList"
 add address=149.245.248.0/22 list="NL" comment="PrefixList"
 add address=149.245.254.0/23 list="NL" comment="PrefixList"
 add address=150.129.8.0/22 list="NL" comment="PrefixList"

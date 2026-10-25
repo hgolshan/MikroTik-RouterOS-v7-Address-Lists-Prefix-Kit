@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "GB"
 # Content Source: United Kingdom (GB)
-# IPv4 Prefixes: 8226 | IPv6 Prefixes: 3 | Total: 8229
-# Generated At: 2026-10-18 06:46:51 UTC
+# IPv4 Prefixes: 8224 | IPv6 Prefixes: 3 | Total: 8227
+# Generated At: 2026-10-25 07:05:01 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/gb.rsc" dst-path="GB.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [GB] (8226 entries)
+# IPv4 Firewall Address List: [GB] (8224 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="GB" comment="PrefixList"]
@@ -37,6 +37,7 @@ add address=2.96.0.0/13 list="GB" comment="PrefixList"
 add address=2.120.0.0/13 list="GB" comment="PrefixList"
 add address=2.152.73.0/24 list="GB" comment="PrefixList"
 add address=2.152.84.0/23 list="GB" comment="PrefixList"
+add address=2.152.96.0/22 list="GB" comment="PrefixList"
 add address=2.216.0.0/13 list="GB" comment="PrefixList"
 add address=5.1.45.0/24 list="GB" comment="PrefixList"
 add address=5.2.16.0/21 list="GB" comment="PrefixList"
@@ -2511,7 +2512,6 @@ add address=91.236.117.0/24 list="GB" comment="PrefixList"
 add address=91.236.152.0/24 list="GB" comment="PrefixList"
 add address=91.236.190.0/23 list="GB" comment="PrefixList"
 add address=91.236.206.0/24 list="GB" comment="PrefixList"
-add address=91.236.230.0/24 list="GB" comment="PrefixList"
 add address=91.237.8.0/22 list="GB" comment="PrefixList"
 add address=91.237.74.0/23 list="GB" comment="PrefixList"
 add address=91.237.124.0/24 list="GB" comment="PrefixList"
@@ -3625,7 +3625,6 @@ add address=157.173.32.0/22 list="GB" comment="PrefixList"
 add address=157.173.40.0/21 list="GB" comment="PrefixList"
 add address=157.173.48.0/20 list="GB" comment="PrefixList"
 add address=157.173.64.0/22 list="GB" comment="PrefixList"
-add address=157.173.73.0/24 list="GB" comment="PrefixList"
 add address=157.173.224.0/19 list="GB" comment="PrefixList"
 add address=157.176.0.0/16 list="GB" comment="PrefixList"
 add address=157.203.0.0/16 list="GB" comment="PrefixList"
@@ -7214,7 +7213,6 @@ add address=195.10.219.0/24 list="GB" comment="PrefixList"
 add address=195.10.221.0/24 list="GB" comment="PrefixList"
 add address=195.10.222.0/23 list="GB" comment="PrefixList"
 add address=195.10.232.0/23 list="GB" comment="PrefixList"
-add address=195.10.236.0/22 list="GB" comment="PrefixList"
 add address=195.10.244.0/22 list="GB" comment="PrefixList"
 add address=195.10.248.0/21 list="GB" comment="PrefixList"
 add address=195.11.0.0/16 list="GB" comment="PrefixList"

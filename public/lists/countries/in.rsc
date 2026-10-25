@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "IN"
 # Content Source: India (IN)
-# IPv4 Prefixes: 7217 | IPv6 Prefixes: 3 | Total: 7220
-# Generated At: 2026-10-18 06:46:53 UTC
+# IPv4 Prefixes: 7219 | IPv6 Prefixes: 3 | Total: 7222
+# Generated At: 2026-10-25 07:05:02 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/in.rsc" dst-path="IN.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [IN] (7217 entries)
+# IPv4 Firewall Address List: [IN] (7219 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="IN" comment="PrefixList"]
@@ -274,6 +274,7 @@ add address=43.241.128.0/21 list="IN" comment="PrefixList"
 add address=43.241.140.0/22 list="IN" comment="PrefixList"
 add address=43.241.144.0/22 list="IN" comment="PrefixList"
 add address=43.241.192.0/22 list="IN" comment="PrefixList"
+add address=43.241.196.0/24 list="IN" comment="PrefixList"
 add address=43.242.36.0/22 list="IN" comment="PrefixList"
 add address=43.242.104.0/22 list="IN" comment="PrefixList"
 add address=43.242.116.0/22 list="IN" comment="PrefixList"
@@ -318,6 +319,7 @@ add address=43.248.152.0/22 list="IN" comment="PrefixList"
 add address=43.248.220.0/22 list="IN" comment="PrefixList"
 add address=43.248.236.0/22 list="IN" comment="PrefixList"
 add address=43.248.240.0/22 list="IN" comment="PrefixList"
+add address=43.249.22.0/23 list="IN" comment="PrefixList"
 add address=43.249.52.0/22 list="IN" comment="PrefixList"
 add address=43.249.84.0/22 list="IN" comment="PrefixList"
 add address=43.249.180.0/22 list="IN" comment="PrefixList"

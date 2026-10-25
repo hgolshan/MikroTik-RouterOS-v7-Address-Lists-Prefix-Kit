@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit",
   "author": "Hossein Golshan",
-  "generatedAt": "2026-10-18T06:46:23.914Z",
+  "generatedAt": "2026-10-25T07:04:41.428Z",
   "totalLists": 48,
   "lists": [
     {
@@ -17,12 +17,12 @@
         43515
       ],
       "ipv4Count": 94,
-      "ipv6Count": 71,
-      "totalPrefixes": 165,
+      "ipv6Count": 69,
+      "totalPrefixes": 163,
       "filename": "org/google.rsc",
       "rscUrl": "/lists/org/google.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/google.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -35,13 +35,13 @@
         13335,
         209242
       ],
-      "ipv4Count": 1340,
-      "ipv6Count": 2585,
-      "totalPrefixes": 3925,
+      "ipv4Count": 1355,
+      "ipv6Count": 2571,
+      "totalPrefixes": 3926,
       "filename": "org/cloudflare.rsc",
       "rscUrl": "/lists/org/cloudflare.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/cloudflare.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -54,13 +54,13 @@
         16509,
         14618
       ],
-      "ipv4Count": 6025,
-      "ipv6Count": 4034,
-      "totalPrefixes": 10059,
+      "ipv4Count": 6037,
+      "ipv6Count": 4011,
+      "totalPrefixes": 10048,
       "filename": "org/amazon.rsc",
       "rscUrl": "/lists/org/amazon.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/amazon.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -74,13 +74,13 @@
         8068,
         8069
       ],
-      "ipv4Count": 946,
-      "ipv6Count": 115,
-      "totalPrefixes": 1061,
+      "ipv4Count": 950,
+      "ipv6Count": 110,
+      "totalPrefixes": 1060,
       "filename": "org/microsoft.rsc",
       "rscUrl": "/lists/org/microsoft.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/microsoft.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -93,13 +93,13 @@
         32934,
         63293
       ],
-      "ipv4Count": 77,
+      "ipv4Count": 78,
       "ipv6Count": 79,
-      "totalPrefixes": 156,
+      "totalPrefixes": 157,
       "filename": "org/meta.rsc",
       "rscUrl": "/lists/org/meta.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/meta.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -118,7 +118,7 @@
       "filename": "org/netflix.rsc",
       "rscUrl": "/lists/org/netflix.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/netflix.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -140,7 +140,7 @@
       "filename": "org/telegram.rsc",
       "rscUrl": "/lists/org/telegram.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/telegram.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -158,7 +158,7 @@
       "filename": "org/apple.rsc",
       "rscUrl": "/lists/org/apple.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/apple.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -176,7 +176,7 @@
       "filename": "org/github.rsc",
       "rscUrl": "/lists/org/github.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/github.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -188,13 +188,13 @@
       "asns": [
         54113
       ],
-      "ipv4Count": 118,
-      "ipv6Count": 400,
-      "totalPrefixes": 518,
+      "ipv4Count": 119,
+      "ipv6Count": 304,
+      "totalPrefixes": 423,
       "filename": "org/fastly.rsc",
       "rscUrl": "/lists/org/fastly.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/fastly.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -207,13 +207,13 @@
         20940,
         16625
       ],
-      "ipv4Count": 117,
+      "ipv4Count": 121,
       "ipv6Count": 574,
-      "totalPrefixes": 691,
+      "totalPrefixes": 695,
       "filename": "org/akamai.rsc",
       "rscUrl": "/lists/org/akamai.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/akamai.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -232,7 +232,7 @@
       "filename": "org/hetzner.rsc",
       "rscUrl": "/lists/org/hetzner.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/hetzner.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -244,13 +244,13 @@
       "asns": [
         16276
       ],
-      "ipv4Count": 638,
+      "ipv4Count": 650,
       "ipv6Count": 5,
-      "totalPrefixes": 643,
+      "totalPrefixes": 655,
       "filename": "org/ovh.rsc",
       "rscUrl": "/lists/org/ovh.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/ovh.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -262,13 +262,13 @@
       "asns": [
         14061
       ],
-      "ipv4Count": 168,
-      "ipv6Count": 15,
-      "totalPrefixes": 183,
+      "ipv4Count": 169,
+      "ipv6Count": 6,
+      "totalPrefixes": 175,
       "filename": "org/digitalocean.rsc",
       "rscUrl": "/lists/org/digitalocean.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/digitalocean.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -280,13 +280,13 @@
       "asns": [
         31898
       ],
-      "ipv4Count": 1194,
-      "ipv6Count": 518,
-      "totalPrefixes": 1712,
+      "ipv4Count": 1191,
+      "ipv6Count": 587,
+      "totalPrefixes": 1778,
       "filename": "org/oracle.rsc",
       "rscUrl": "/lists/org/oracle.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/oracle.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -304,7 +304,7 @@
       "filename": "org/spotify.rsc",
       "rscUrl": "/lists/org/spotify.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/spotify.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -322,7 +322,7 @@
       "filename": "org/zoom.rsc",
       "rscUrl": "/lists/org/zoom.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/zoom.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -340,7 +340,7 @@
       "filename": "org/linkedin.rsc",
       "rscUrl": "/lists/org/linkedin.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/linkedin.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -358,7 +358,7 @@
       "filename": "org/x-twitter.rsc",
       "rscUrl": "/lists/org/x-twitter.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/x-twitter.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -371,12 +371,12 @@
         32590
       ],
       "ipv4Count": 20,
-      "ipv6Count": 22,
-      "totalPrefixes": 42,
+      "ipv6Count": 25,
+      "totalPrefixes": 45,
       "filename": "org/valve.rsc",
       "rscUrl": "/lists/org/valve.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/valve.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -390,12 +390,12 @@
         45102
       ],
       "ipv4Count": 286,
-      "ipv6Count": 83,
-      "totalPrefixes": 369,
+      "ipv6Count": 82,
+      "totalPrefixes": 368,
       "filename": "org/alibaba.rsc",
       "rscUrl": "/lists/org/alibaba.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/alibaba.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -408,13 +408,13 @@
         138699,
         396986
       ],
-      "ipv4Count": 101,
-      "ipv6Count": 50,
-      "totalPrefixes": 151,
+      "ipv4Count": 103,
+      "ipv6Count": 70,
+      "totalPrefixes": 173,
       "filename": "org/bytedance.rsc",
       "rscUrl": "/lists/org/bytedance.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/bytedance.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -433,7 +433,7 @@
       "filename": "org/discord.rsc",
       "rscUrl": "/lists/org/discord.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/discord.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -451,7 +451,7 @@
       "filename": "org/openai.rsc",
       "rscUrl": "/lists/org/openai.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/openai.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -463,13 +463,13 @@
       "asns": [
         20473
       ],
-      "ipv4Count": 849,
-      "ipv6Count": 1018,
-      "totalPrefixes": 1867,
+      "ipv4Count": 854,
+      "ipv6Count": 977,
+      "totalPrefixes": 1831,
       "filename": "org/vultr.rsc",
       "rscUrl": "/lists/org/vultr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/vultr.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -479,13 +479,13 @@
       "type": "country",
       "iso2": "US",
       "flag": "🇺🇸",
-      "ipv4Count": 29717,
+      "ipv4Count": 29721,
       "ipv6Count": 3,
-      "totalPrefixes": 29720,
+      "totalPrefixes": 29724,
       "filename": "countries/us.rsc",
       "rscUrl": "/lists/countries/us.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/us.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -495,13 +495,13 @@
       "type": "country",
       "iso2": "DE",
       "flag": "🇩🇪",
-      "ipv4Count": 8750,
+      "ipv4Count": 8752,
       "ipv6Count": 3,
-      "totalPrefixes": 8753,
+      "totalPrefixes": 8755,
       "filename": "countries/de.rsc",
       "rscUrl": "/lists/countries/de.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/de.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -511,13 +511,13 @@
       "type": "country",
       "iso2": "GB",
       "flag": "🇬🇧",
-      "ipv4Count": 8226,
+      "ipv4Count": 8224,
       "ipv6Count": 3,
-      "totalPrefixes": 8229,
+      "totalPrefixes": 8227,
       "filename": "countries/gb.rsc",
       "rscUrl": "/lists/countries/gb.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/gb.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -527,13 +527,13 @@
       "type": "country",
       "iso2": "FR",
       "flag": "🇫🇷",
-      "ipv4Count": 4174,
+      "ipv4Count": 4175,
       "ipv6Count": 3,
-      "totalPrefixes": 4177,
+      "totalPrefixes": 4178,
       "filename": "countries/fr.rsc",
       "rscUrl": "/lists/countries/fr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/fr.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -549,7 +549,7 @@
       "filename": "countries/ir.rsc",
       "rscUrl": "/lists/countries/ir.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ir.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -559,13 +559,13 @@
       "type": "country",
       "iso2": "CN",
       "flag": "🇨🇳",
-      "ipv4Count": 5516,
+      "ipv4Count": 5517,
       "ipv6Count": 3,
-      "totalPrefixes": 5519,
+      "totalPrefixes": 5520,
       "filename": "countries/cn.rsc",
       "rscUrl": "/lists/countries/cn.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/cn.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -575,13 +575,13 @@
       "type": "country",
       "iso2": "RU",
       "flag": "🇷🇺",
-      "ipv4Count": 8663,
+      "ipv4Count": 8664,
       "ipv6Count": 3,
-      "totalPrefixes": 8666,
+      "totalPrefixes": 8667,
       "filename": "countries/ru.rsc",
       "rscUrl": "/lists/countries/ru.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ru.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -591,13 +591,13 @@
       "type": "country",
       "iso2": "NL",
       "flag": "🇳🇱",
-      "ipv4Count": 5720,
+      "ipv4Count": 5717,
       "ipv6Count": 2,
-      "totalPrefixes": 5722,
+      "totalPrefixes": 5719,
       "filename": "countries/nl.rsc",
       "rscUrl": "/lists/countries/nl.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/nl.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -613,7 +613,7 @@
       "filename": "countries/jp.rsc",
       "rscUrl": "/lists/countries/jp.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/jp.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -623,13 +623,13 @@
       "type": "country",
       "iso2": "IN",
       "flag": "🇮🇳",
-      "ipv4Count": 7217,
+      "ipv4Count": 7219,
       "ipv6Count": 3,
-      "totalPrefixes": 7220,
+      "totalPrefixes": 7222,
       "filename": "countries/in.rsc",
       "rscUrl": "/lists/countries/in.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/in.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -645,7 +645,7 @@
       "filename": "countries/br.rsc",
       "rscUrl": "/lists/countries/br.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/br.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -661,7 +661,7 @@
       "filename": "countries/ca.rsc",
       "rscUrl": "/lists/countries/ca.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ca.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -671,13 +671,13 @@
       "type": "country",
       "iso2": "AU",
       "flag": "🇦🇺",
-      "ipv4Count": 5675,
+      "ipv4Count": 5674,
       "ipv6Count": 2,
-      "totalPrefixes": 5677,
+      "totalPrefixes": 5676,
       "filename": "countries/au.rsc",
       "rscUrl": "/lists/countries/au.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/au.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -693,7 +693,7 @@
       "filename": "countries/tr.rsc",
       "rscUrl": "/lists/countries/tr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/tr.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -709,7 +709,7 @@
       "filename": "countries/sg.rsc",
       "rscUrl": "/lists/countries/sg.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/sg.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -725,7 +725,7 @@
       "filename": "countries/ae.rsc",
       "rscUrl": "/lists/countries/ae.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ae.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -741,7 +741,7 @@
       "filename": "countries/ch.rsc",
       "rscUrl": "/lists/countries/ch.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ch.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -757,7 +757,7 @@
       "filename": "countries/se.rsc",
       "rscUrl": "/lists/countries/se.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/se.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -773,7 +773,7 @@
       "filename": "countries/kr.rsc",
       "rscUrl": "/lists/countries/kr.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/kr.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -783,13 +783,13 @@
       "type": "country",
       "iso2": "IT",
       "flag": "🇮🇹",
-      "ipv4Count": 3374,
+      "ipv4Count": 3375,
       "ipv6Count": 2,
-      "totalPrefixes": 3376,
+      "totalPrefixes": 3377,
       "filename": "countries/it.rsc",
       "rscUrl": "/lists/countries/it.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/it.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -799,13 +799,13 @@
       "type": "country",
       "iso2": "ES",
       "flag": "🇪🇸",
-      "ipv4Count": 3436,
+      "ipv4Count": 3437,
       "ipv6Count": 2,
-      "totalPrefixes": 3438,
+      "totalPrefixes": 3439,
       "filename": "countries/es.rsc",
       "rscUrl": "/lists/countries/es.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/es.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -815,13 +815,13 @@
       "type": "country",
       "iso2": "PL",
       "flag": "🇵🇱",
-      "ipv4Count": 3953,
+      "ipv4Count": 3954,
       "ipv6Count": 2,
-      "totalPrefixes": 3955,
+      "totalPrefixes": 3956,
       "filename": "countries/pl.rsc",
       "rscUrl": "/lists/countries/pl.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/pl.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     },
     {
@@ -831,13 +831,13 @@
       "type": "country",
       "iso2": "UA",
       "flag": "🇺🇦",
-      "ipv4Count": 2669,
+      "ipv4Count": 2666,
       "ipv6Count": 1,
-      "totalPrefixes": 2670,
+      "totalPrefixes": 2667,
       "filename": "countries/ua.rsc",
       "rscUrl": "/lists/countries/ua.rsc",
       "rawUrl": "https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ua.rsc",
-      "lastUpdated": "2026-10-18T06:46:23.914Z",
+      "lastUpdated": "2026-10-25T07:04:41.428Z",
       "isLiveSynced": true
     }
   ]

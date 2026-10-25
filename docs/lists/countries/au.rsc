@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "AU"
 # Content Source: Australia (AU)
-# IPv4 Prefixes: 5675 | IPv6 Prefixes: 2 | Total: 5677
-# Generated At: 2026-10-18 06:46:53 UTC
+# IPv4 Prefixes: 5674 | IPv6 Prefixes: 2 | Total: 5676
+# Generated At: 2026-10-25 07:05:03 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/au.rsc" dst-path="AU.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [AU] (5675 entries)
+# IPv4 Firewall Address List: [AU] (5674 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="AU" comment="PrefixList"]
@@ -3607,7 +3607,6 @@ add address=202.67.64.0/18 list="AU" comment="PrefixList"
 add address=202.68.64.0/20 list="AU" comment="PrefixList"
 add address=202.68.96.0/20 list="AU" comment="PrefixList"
 add address=202.68.112.0/21 list="AU" comment="PrefixList"
-add address=202.68.124.0/22 list="AU" comment="PrefixList"
 add address=202.68.160.0/20 list="AU" comment="PrefixList"
 add address=202.69.132.0/22 list="AU" comment="PrefixList"
 add address=202.69.208.0/20 list="AU" comment="PrefixList"

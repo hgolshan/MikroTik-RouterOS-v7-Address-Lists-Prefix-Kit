@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "ES"
 # Content Source: Spain (ES)
-# IPv4 Prefixes: 3436 | IPv6 Prefixes: 2 | Total: 3438
-# Generated At: 2026-10-18 06:46:54 UTC
+# IPv4 Prefixes: 3437 | IPv6 Prefixes: 2 | Total: 3439
+# Generated At: 2026-10-25 07:05:04 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/es.rsc" dst-path="ES.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [ES] (3436 entries)
+# IPv4 Firewall Address List: [ES] (3437 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="ES" comment="PrefixList"]
@@ -47,7 +47,9 @@ add address=2.152.75.0/24 list="ES" comment="PrefixList"
 add address=2.152.77.0/24 list="ES" comment="PrefixList"
 add address=2.152.89.0/24 list="ES" comment="PrefixList"
 add address=2.152.90.0/23 list="ES" comment="PrefixList"
-add address=2.152.96.0/19 list="ES" comment="PrefixList"
+add address=2.152.100.0/22 list="ES" comment="PrefixList"
+add address=2.152.104.0/21 list="ES" comment="PrefixList"
+add address=2.152.112.0/20 list="ES" comment="PrefixList"
 add address=2.152.128.0/19 list="ES" comment="PrefixList"
 add address=2.152.160.0/20 list="ES" comment="PrefixList"
 add address=2.152.182.0/23 list="ES" comment="PrefixList"
@@ -623,7 +625,6 @@ add address=80.224.0.0/17 list="ES" comment="PrefixList"
 add address=80.224.128.0/18 list="ES" comment="PrefixList"
 add address=80.224.192.0/20 list="ES" comment="PrefixList"
 add address=80.224.208.0/21 list="ES" comment="PrefixList"
-add address=80.224.218.0/23 list="ES" comment="PrefixList"
 add address=80.224.220.0/22 list="ES" comment="PrefixList"
 add address=80.224.224.0/21 list="ES" comment="PrefixList"
 add address=80.224.232.0/22 list="ES" comment="PrefixList"
@@ -742,7 +743,7 @@ add address=85.118.240.0/21 list="ES" comment="PrefixList"
 add address=85.119.192.0/21 list="ES" comment="PrefixList"
 add address=85.136.82.0/24 list="ES" comment="PrefixList"
 add address=85.137.82.0/23 list="ES" comment="PrefixList"
-add address=85.137.180.0/23 list="ES" comment="PrefixList"
+add address=85.137.180.0/24 list="ES" comment="PrefixList"
 add address=85.152.0.0/16 list="ES" comment="PrefixList"
 add address=85.155.0.0/21 list="ES" comment="PrefixList"
 add address=85.155.8.0/22 list="ES" comment="PrefixList"

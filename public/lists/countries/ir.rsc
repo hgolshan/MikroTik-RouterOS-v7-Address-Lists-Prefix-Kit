@@ -6,7 +6,7 @@
 # Target List: "IR"
 # Content Source: Iran (IR)
 # IPv4 Prefixes: 1747 | IPv6 Prefixes: 5 | Total: 1752
-# Generated At: 2026-10-18 06:46:52 UTC
+# Generated At: 2026-10-25 07:05:02 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ir.rsc" dst-path="IR.rsc"

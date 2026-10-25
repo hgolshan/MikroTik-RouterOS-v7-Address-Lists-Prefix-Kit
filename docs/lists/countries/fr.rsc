@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "FR"
 # Content Source: France (FR)
-# IPv4 Prefixes: 4174 | IPv6 Prefixes: 3 | Total: 4177
-# Generated At: 2026-10-18 06:46:52 UTC
+# IPv4 Prefixes: 4175 | IPv6 Prefixes: 3 | Total: 4178
+# Generated At: 2026-10-25 07:05:01 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/fr.rsc" dst-path="FR.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [FR] (4174 entries)
+# IPv4 Firewall Address List: [FR] (4175 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="FR" comment="PrefixList"]
@@ -1594,6 +1594,7 @@ add address=159.100.32.0/20 list="FR" comment="PrefixList"
 add address=159.151.0.0/16 list="FR" comment="PrefixList"
 add address=159.173.0.0/16 list="FR" comment="PrefixList"
 add address=159.180.224.0/19 list="FR" comment="PrefixList"
+add address=159.200.212.0/22 list="FR" comment="PrefixList"
 add address=160.92.0.0/16 list="FR" comment="PrefixList"
 add address=160.103.0.0/16 list="FR" comment="PrefixList"
 add address=160.223.180.0/23 list="FR" comment="PrefixList"

@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "IT"
 # Content Source: Italy (IT)
-# IPv4 Prefixes: 3374 | IPv6 Prefixes: 2 | Total: 3376
-# Generated At: 2026-10-18 06:46:54 UTC
+# IPv4 Prefixes: 3375 | IPv6 Prefixes: 2 | Total: 3377
+# Generated At: 2026-10-25 07:05:04 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/it.rsc" dst-path="IT.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [IT] (3374 entries)
+# IPv4 Firewall Address List: [IT] (3375 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="IT" comment="PrefixList"]
@@ -1440,6 +1440,7 @@ add address=159.48.56.0/21 list="IT" comment="PrefixList"
 add address=159.61.80.0/24 list="IT" comment="PrefixList"
 add address=159.61.152.0/22 list="IT" comment="PrefixList"
 add address=159.149.0.0/16 list="IT" comment="PrefixList"
+add address=159.200.205.0/24 list="IT" comment="PrefixList"
 add address=159.210.0.0/16 list="IT" comment="PrefixList"
 add address=159.213.0.0/16 list="IT" comment="PrefixList"
 add address=159.253.96.0/21 list="IT" comment="PrefixList"
