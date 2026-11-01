@@ -6,7 +6,7 @@
 # Target List: "CH"
 # Content Source: Switzerland (CH)
 # IPv4 Prefixes: 2686 | IPv6 Prefixes: 1 | Total: 2687
-# Generated At: 2026-10-25 07:05:04 UTC
+# Generated At: 2026-11-01 08:20:55 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ch.rsc" dst-path="CH.rsc"

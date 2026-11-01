@@ -6,7 +6,7 @@
 # Target List: "US"
 # Content Source: United States (US)
 # IPv4 Prefixes: 29721 | IPv6 Prefixes: 3 | Total: 29724
-# Generated At: 2026-10-25 07:05:00 UTC
+# Generated At: 2026-11-01 08:20:52 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/us.rsc" dst-path="US.rsc"

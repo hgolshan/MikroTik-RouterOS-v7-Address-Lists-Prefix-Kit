@@ -6,7 +6,7 @@
 # Target List: "TR"
 # Content Source: Turkey (TR)
 # IPv4 Prefixes: 1623 | IPv6 Prefixes: 2 | Total: 1625
-# Generated At: 2026-10-25 07:05:03 UTC
+# Generated At: 2026-11-01 08:20:55 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/tr.rsc" dst-path="TR.rsc"

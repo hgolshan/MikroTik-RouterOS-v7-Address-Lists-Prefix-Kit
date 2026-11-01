@@ -5,8 +5,8 @@
 # Web App: https://hgolshan.github.io/prefixlist/
 # Target List: "HETZNER"
 # Content Source: Hetzner Online (ASNs: 24940, 213230)
-# IPv4 Prefixes: 84 | IPv6 Prefixes: 5 | Total: 89
-# Generated At: 2026-10-25 07:04:55 UTC
+# IPv4 Prefixes: 85 | IPv6 Prefixes: 5 | Total: 90
+# Generated At: 2026-11-01 08:20:44 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/hetzner.rsc" dst-path="HETZNER.rsc"
@@ -14,7 +14,7 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# IPv4 Firewall Address List: [HETZNER] (84 entries)
+# IPv4 Firewall Address List: [HETZNER] (85 entries)
 # ---------------------------------------------------------------------
 /ip firewall address-list
 remove [find list="HETZNER" comment="PrefixList"]
@@ -58,6 +58,7 @@ add address=138.201.0.0/16 list="HETZNER" comment="PrefixList"
 add address=142.132.128.0/17 list="HETZNER" comment="PrefixList"
 add address=144.76.0.0/16 list="HETZNER" comment="PrefixList"
 add address=148.251.0.0/16 list="HETZNER" comment="PrefixList"
+add address=149.245.242.0/24 list="HETZNER" comment="PrefixList"
 add address=157.90.0.0/16 list="HETZNER" comment="PrefixList"
 add address=157.180.0.0/17 list="HETZNER" comment="PrefixList"
 add address=159.69.0.0/16 list="HETZNER" comment="PrefixList"
@@ -108,8 +109,8 @@ add address=216.55.108.0/22 list="HETZNER" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="HETZNER" comment="PrefixList"]
-add address=2a12:2240::/29 list="HETZNER" comment="PrefixList"
 add address=2a06:be80::/29 list="HETZNER" comment="PrefixList"
+add address=2a12:2240::/29 list="HETZNER" comment="PrefixList"
 add address=2a01:4f8::/32 list="HETZNER" comment="PrefixList"
 add address=2a01:4f9::/32 list="HETZNER" comment="PrefixList"
 add address=2a01:4ff::/40 list="HETZNER" comment="PrefixList"

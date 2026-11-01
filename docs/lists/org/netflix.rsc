@@ -6,7 +6,7 @@
 # Target List: "NETFLIX"
 # Content Source: Netflix (ASNs: 2906, 40027)
 # IPv4 Prefixes: 16 | IPv6 Prefixes: 9 | Total: 25
-# Generated At: 2026-10-25 07:04:53 UTC
+# Generated At: 2026-11-01 08:20:42 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/netflix.rsc" dst-path="NETFLIX.rsc"

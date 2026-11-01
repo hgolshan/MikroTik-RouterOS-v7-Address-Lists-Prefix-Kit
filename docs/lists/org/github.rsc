@@ -6,7 +6,7 @@
 # Target List: "GITHUB"
 # Content Source: GitHub (ASNs: 36459)
 # IPv4 Prefixes: 3 | IPv6 Prefixes: 2 | Total: 5
-# Generated At: 2026-10-25 07:04:54 UTC
+# Generated At: 2026-11-01 08:20:43 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/github.rsc" dst-path="GITHUB.rsc"

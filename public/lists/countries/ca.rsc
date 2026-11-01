@@ -6,7 +6,7 @@
 # Target List: "CA"
 # Content Source: Canada (CA)
 # IPv4 Prefixes: 6462 | IPv6 Prefixes: 2 | Total: 6464
-# Generated At: 2026-10-25 07:05:03 UTC
+# Generated At: 2026-11-01 08:20:54 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ca.rsc" dst-path="CA.rsc"

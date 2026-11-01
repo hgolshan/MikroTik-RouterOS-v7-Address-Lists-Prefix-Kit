@@ -6,7 +6,7 @@
 # Target List: "UA"
 # Content Source: Ukraine (UA)
 # IPv4 Prefixes: 2666 | IPv6 Prefixes: 1 | Total: 2667
-# Generated At: 2026-10-25 07:05:05 UTC
+# Generated At: 2026-11-01 08:20:56 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ua.rsc" dst-path="UA.rsc"
