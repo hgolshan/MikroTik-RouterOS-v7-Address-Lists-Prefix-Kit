@@ -6,7 +6,7 @@
 # Target List: "PL"
 # Content Source: Poland (PL)
 # IPv4 Prefixes: 3954 | IPv6 Prefixes: 2 | Total: 3956
-# Generated At: 2026-11-01 08:20:56 UTC
+# Generated At: 2026-11-08 08:15:26 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/pl.rsc" dst-path="PL.rsc"

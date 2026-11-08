@@ -6,7 +6,7 @@
 # Target List: "SG"
 # Content Source: Singapore (SG)
 # IPv4 Prefixes: 1757 | IPv6 Prefixes: 2 | Total: 1759
-# Generated At: 2026-11-01 08:20:55 UTC
+# Generated At: 2026-11-08 08:15:25 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/sg.rsc" dst-path="SG.rsc"

@@ -6,7 +6,7 @@
 # Target List: "GB"
 # Content Source: United Kingdom (GB)
 # IPv4 Prefixes: 8224 | IPv6 Prefixes: 3 | Total: 8227
-# Generated At: 2026-11-01 08:20:53 UTC
+# Generated At: 2026-11-08 08:15:24 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/gb.rsc" dst-path="GB.rsc"
