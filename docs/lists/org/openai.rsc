@@ -6,7 +6,7 @@
 # Target List: "OPENAI"
 # Content Source: OpenAI (ASNs: 204990)
 # IPv4 Prefixes: 1 | IPv6 Prefixes: 1 | Total: 2
-# Generated At: 2026-11-08 08:15:22 UTC
+# Generated At: 2026-11-15 08:35:41 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/openai.rsc" dst-path="OPENAI.rsc"

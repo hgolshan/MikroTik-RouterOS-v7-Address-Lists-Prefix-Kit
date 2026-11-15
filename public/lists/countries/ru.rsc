@@ -6,7 +6,7 @@
 # Target List: "RU"
 # Content Source: Russian Federation (RU)
 # IPv4 Prefixes: 8664 | IPv6 Prefixes: 3 | Total: 8667
-# Generated At: 2026-11-08 08:15:24 UTC
+# Generated At: 2026-11-15 08:35:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ru.rsc" dst-path="RU.rsc"

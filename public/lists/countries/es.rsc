@@ -6,7 +6,7 @@
 # Target List: "ES"
 # Content Source: Spain (ES)
 # IPv4 Prefixes: 3437 | IPv6 Prefixes: 2 | Total: 3439
-# Generated At: 2026-11-08 08:15:26 UTC
+# Generated At: 2026-11-15 08:35:47 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/es.rsc" dst-path="ES.rsc"

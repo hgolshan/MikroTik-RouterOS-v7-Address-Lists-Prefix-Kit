@@ -6,7 +6,7 @@
 # Target List: "AE"
 # Content Source: United Arab Emirates (AE)
 # IPv4 Prefixes: 1227 | IPv6 Prefixes: 2 | Total: 1229
-# Generated At: 2026-11-08 08:15:25 UTC
+# Generated At: 2026-11-15 08:35:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/ae.rsc" dst-path="AE.rsc"

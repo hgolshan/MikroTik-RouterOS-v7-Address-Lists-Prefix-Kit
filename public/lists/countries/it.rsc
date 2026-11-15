@@ -6,7 +6,7 @@
 # Target List: "IT"
 # Content Source: Italy (IT)
 # IPv4 Prefixes: 3375 | IPv6 Prefixes: 2 | Total: 3377
-# Generated At: 2026-11-08 08:15:26 UTC
+# Generated At: 2026-11-15 08:35:46 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/it.rsc" dst-path="IT.rsc"

@@ -6,7 +6,7 @@
 # Target List: "AU"
 # Content Source: Australia (AU)
 # IPv4 Prefixes: 5674 | IPv6 Prefixes: 2 | Total: 5676
-# Generated At: 2026-11-08 08:15:25 UTC
+# Generated At: 2026-11-15 08:35:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/au.rsc" dst-path="AU.rsc"

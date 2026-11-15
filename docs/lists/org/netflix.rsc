@@ -6,7 +6,7 @@
 # Target List: "NETFLIX"
 # Content Source: Netflix (ASNs: 2906, 40027)
 # IPv4 Prefixes: 16 | IPv6 Prefixes: 9 | Total: 25
-# Generated At: 2026-11-08 08:15:15 UTC
+# Generated At: 2026-11-15 08:35:36 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/netflix.rsc" dst-path="NETFLIX.rsc"
@@ -47,7 +47,7 @@ add address=2a03:5640:4000::/34 list="NETFLIX" comment="PrefixList"
 add address=2a03:5640:2000::/35 list="NETFLIX" comment="PrefixList"
 add address=2a03:5640:1000::/36 list="NETFLIX" comment="PrefixList"
 add address=2620:10c:7000::/44 list="NETFLIX" comment="PrefixList"
-add address=2620:10c:700d::/48 list="NETFLIX" comment="PrefixList"
 add address=2620:10c:7008::/48 list="NETFLIX" comment="PrefixList"
+add address=2620:10c:700d::/48 list="NETFLIX" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

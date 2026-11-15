@@ -6,7 +6,7 @@
 # Target List: "NL"
 # Content Source: Netherlands (NL)
 # IPv4 Prefixes: 5717 | IPv6 Prefixes: 2 | Total: 5719
-# Generated At: 2026-11-08 08:15:24 UTC
+# Generated At: 2026-11-15 08:35:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/nl.rsc" dst-path="NL.rsc"

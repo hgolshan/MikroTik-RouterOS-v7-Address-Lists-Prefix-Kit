@@ -6,7 +6,7 @@
 # Target List: "HETZNER"
 # Content Source: Hetzner Online (ASNs: 24940, 213230)
 # IPv4 Prefixes: 86 | IPv6 Prefixes: 5 | Total: 91
-# Generated At: 2026-11-08 08:15:17 UTC
+# Generated At: 2026-11-15 08:35:39 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/org/hetzner.rsc" dst-path="HETZNER.rsc"
@@ -110,10 +110,10 @@ add address=216.55.108.0/22 list="HETZNER" comment="PrefixList"
 # ---------------------------------------------------------------------
 /ipv6 firewall address-list
 remove [find list="HETZNER" comment="PrefixList"]
-add address=2a12:2240::/29 list="HETZNER" comment="PrefixList"
 add address=2a06:be80::/29 list="HETZNER" comment="PrefixList"
-add address=2a01:4f8::/32 list="HETZNER" comment="PrefixList"
+add address=2a12:2240::/29 list="HETZNER" comment="PrefixList"
 add address=2a01:4f9::/32 list="HETZNER" comment="PrefixList"
+add address=2a01:4f8::/32 list="HETZNER" comment="PrefixList"
 add address=2a01:4ff::/40 list="HETZNER" comment="PrefixList"
 
 # End of PrefixList RouterOS Configuration

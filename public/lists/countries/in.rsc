@@ -6,7 +6,7 @@
 # Target List: "IN"
 # Content Source: India (IN)
 # IPv4 Prefixes: 7219 | IPv6 Prefixes: 3 | Total: 7222
-# Generated At: 2026-11-08 08:15:25 UTC
+# Generated At: 2026-11-15 08:35:45 UTC
 #
 # Quick Import in RouterOS Terminal:
 #   /tool fetch url="https://raw.githubusercontent.com/hgolshan/MikroTik-RouterOS-v7-Address-Lists-Prefix-Kit/main/public/lists/countries/in.rsc" dst-path="IN.rsc"
